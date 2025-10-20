@@ -1,0 +1,58 @@
+name: Docs (Doxygen → GitHub Pages)
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'include/**'
+      - 'protocols/**'
+      - 'libraries/**'
+      - 'docs/**'
+      - '.github/workflows/docs.yml'
+  workflow_dispatch:
+
+# ВАЖНО: нужны права на Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Doxygen + Graphviz (for class/ call graphs)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y doxygen graphviz
+
+      # (Опционально) если используешь красивую тему doxygen-awesome
+      # - name: Download doxygen-awesome.css
+      #   run: |
+      #     mkdir -p docs
+      #     curl -fsSL https://raw.githubusercontent.com/jothepro/doxygen-awesome-css/main/doxygen-awesome.css -o docs/doxygen-awesome.css
+
+      - name: Build Doxygen
+        run: doxygen docs/Doxyfile
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/build/html
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

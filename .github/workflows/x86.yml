@@ -1,0 +1,75 @@
+name: X86, Build, Test, Coverage & Badge
+
+on:
+  push:
+    branches: [ main, develop, testing ]
+  pull_request:
+  workflow_dispatch:
+
+# Нужно, чтобы боту можно было пушить файл бейджа
+permissions:
+  contents: write
+
+jobs:
+  run-local-ci:
+    name: Run scripts/ci.sh
+    runs-on: [self-hosted, Linux, X64]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+          submodules: recursive
+
+      # (опционально) на некоторых self-hosted иногда нужен safe.directory
+      - name: Mark repo as safe (optional)
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE" || true
+
+      - name: Run local CI script (build+test+coverage+badge)
+        shell: bash
+        run: |
+          chmod +x scripts/ci.sh || true
+          ./scripts/ci.sh \
+            --build \
+            --test \
+            --coverage \
+            --badge \
+            --build-dir build_x86 \
+            --cmake-type Debug
+
+      - name: Show artifacts (diagnostics)
+        if: always()
+        run: |
+          ls -la build_x86 || true
+          ls -la badges || true
+          test -f build_x86/coverage.txt && tail -n +1 build_x86/coverage.txt | sed -n '1,50p' || true
+
+      # Пушим ТОЛЬКО если это не PR и целевая ветка — main
+      - name: Commit & push coverage badge to main
+        if: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -e
+
+          if [[ ! -f badges/coverage.svg ]]; then
+            echo "⚠️ No badge generated, skipping push."
+            exit 0
+          fi
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add badges/coverage.svg || true
+          if git diff --cached --quiet -- badges/coverage.svg; then
+            echo "ℹ️ No badge changes."
+            exit 0
+          fi
+
+          git commit -m "chore(ci): update coverage badge [skip ci]" || true
+          git push origin HEAD:main
+          echo "✅ Coverage badge pushed to main."
