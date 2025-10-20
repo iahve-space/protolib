@@ -1,4 +1,4 @@
-# 🧩 FieldPrototype --- core building block
+# FieldPrototype
 
 **FieldPrototype** is the fundamental abstraction representing a single
 **field** within a protocol message.\

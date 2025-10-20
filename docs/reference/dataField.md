@@ -1,6 +1,6 @@
 
 
-# DataField — Adaptive, Typed, Zero‑Copy Payload Field
+# DataField
 
 > **Inherits:** \ref FieldPrototype (base field contract)
 >
