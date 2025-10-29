@@ -1,0 +1,7 @@
+<map id="proto::DataFieldPrototype::set_type" name="proto::DataFieldPrototype::set_type">
+<area shape="rect" id="Node000001" title="Set active packet by its payload type." alt="" coords="5,5,195,45"/>
+<area shape="rect" id="Node000002" href="$d3/dc2/classproto_1_1DataFieldPrototype.html#ac0add41abcaf78bdffbcf25e2da432ea" title="Set active packet ID." alt="" coords="243,5,432,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,23,229,23,229,28,195,28"/>
+<area shape="rect" id="Node000003" href="$dc/d80/classproto_1_1FieldPrototype.html#a54b668dab452848c39fa5a33726b04f9" title="Configure runtime size for dynamic fields." alt="" coords="480,5,639,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="432,23,466,23,466,28,432,28"/>
+</map>

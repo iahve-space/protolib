@@ -1,0 +1,5 @@
+<map id="proto::DataFieldPrototype&lt; PACKETS, BASE, FLAGS, MAX_SIZE &gt;" name="proto::DataFieldPrototype&lt; PACKETS, BASE, FLAGS, MAX_SIZE &gt;">
+<area shape="rect" id="Node000001" title="Field prototype representing a DATA field that can contain one of multiple packet types selected by I..." alt="" coords="267,13,459,67"/>
+<area shape="rect" id="Node000002" href="$dc/d80/classproto_1_1FieldPrototype.html" title="Template for protocol field definition and runtime handling." alt="" coords="5,5,219,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,37,266,37,266,43,232,43"/>
+</map>

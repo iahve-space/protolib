@@ -1,0 +1,19 @@
+<map id="proto::RxContainer::RxContainer" name="proto::RxContainer::RxContainer">
+<area shape="rect" id="Node000001" title="Constructs an RxContainer and auto&#45;binds default matchers for standard fields." alt="" coords="5,133,149,173"/>
+<area shape="rect" id="Node000002" href="$d0/d29/classproto_1_1RxContainer.html#a88837b69f589085a0e6ae59464afbd3d" title="Validates anti&#45;length (ALEN) against LEN (bitwise NOT)." alt="" coords="205,5,349,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,131,141,94,196,55,207,49,210,54,199,60,145,98,101,135"/>
+<area shape="rect" id="Node000003" href="$d0/d29/classproto_1_1RxContainer.html#a32164b9bb4d7aafb36c279431ae3ba83" title="Computes CRC over fields flagged IS_IN_CRC and compares it with CRC_FIELD." alt="" coords="205,69,349,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="140,131,200,111,202,116,141,136"/>
+<area shape="rect" id="Node000005" href="$d0/d29/classproto_1_1RxContainer.html#a58f4d018e6ad3926d73a38eb8895b18e" title="Updates DATA_FIELD alternative by received TYPE_FIELD and validates its expected size." alt="" coords="205,133,349,173"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="150,151,191,151,191,156,150,156"/>
+<area shape="rect" id="Node000006" href="$d5/d09/classproto_1_1FieldContainer.html#a44b086a546a434a9ba804d3081559d29" title="Reset all fields, CRC, and internal state to defaults." alt="" coords="197,197,356,237"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="141,171,202,191,200,196,140,176"/>
+<area shape="rect" id="Node000009" href="$d0/d29/classproto_1_1RxContainer.html#a1d6da44ba10df67547d25eb435059666" title="Adjusts DATA_FIELD size based on LEN_FIELD and sizes of fields marked IS_IN_LEN." alt="" coords="205,261,349,301"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="101,171,145,209,199,247,210,253,207,258,196,252,141,213,98,175"/>
+<area shape="rect" id="Node000004" href="$d6/dca/namespaceproto.html#aecb8f5d93c1910cff7a2844f50eb98d5" title="Generic flag check helper." alt="" coords="424,77,543,102"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="349,87,410,87,410,92,349,92"/>
+<area shape="rect" id="Node000007" href="$d5/d09/classproto_1_1FieldContainer.html#ad87097e46757f1f4d2ead100ef965f1e" title="Apply a callable to each field in the container." alt="" coords="404,197,563,237"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="356,215,390,215,390,220,356,220"/>
+<area shape="rect" id="Node000008" href="$d5/d09/classproto_1_1FieldContainer.html#a47927806803e31410e7e5bf48e7d50b2" title="Helper to apply a callable to each field in the tuple (implementation)." alt="" coords="611,197,769,237"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="563,215,597,215,597,220,563,220"/>
+</map>

@@ -1,0 +1,27 @@
+<map id="proto::ProtocolEndpoint::set_interfaces" name="proto::ProtocolEndpoint::set_interfaces">
+<area shape="rect" id="Node000001" title="Wire the endpoint to external RX and TX interfaces." alt="" coords="5,201,180,241"/>
+<area shape="rect" id="Node000002" href="$d0/d29/classproto_1_1RxContainer.html#a62f66f4bc347105478aba5bffd14796f" title="Feeds a chunk of bytes to the parser and advances internal state." alt="" coords="228,169,372,209"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,205,214,199,214,205,181,210"/>
+<area shape="rect" id="Node000013" href="$d4/dd2/classproto_1_1TxContainer.html#a1d5868fa51a20d0e81f2ab6a89310b76" title="Assign an output interface (non&#45;owning)." alt="" coords="229,233,371,273"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="181,232,215,237,214,242,180,237"/>
+<area shape="rect" id="Node000003" href="$d6/d58/classCustomSpan.html#afeef45fadf14f15d82570e9022861177" title=" " alt="" coords="429,5,577,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="310,167,352,104,383,69,418,40,429,34,431,38,422,44,386,73,356,107,315,170"/>
+<area shape="rect" id="Node000004" href="$d6/d58/classCustomSpan.html#a94497ad048636cd0b4ec22d4a486ab75" title=" " alt="" coords="426,55,581,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="320,166,363,128,419,90,436,82,438,87,421,95,366,132,323,170"/>
+<area shape="rect" id="Node000005" href="$d5/d09/classproto_1_1FieldContainer.html#a839d6710504914db7f4f92b0e63029cf" title="Check if debug mode is enabled." alt="" coords="424,105,583,145"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="363,166,425,146,427,151,365,171"/>
+<area shape="rect" id="Node000006" href="$d5/d09/classproto_1_1FieldContainer.html#a44b086a546a434a9ba804d3081559d29" title="Reset all fields, CRC, and internal state to defaults." alt="" coords="424,169,583,209"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="372,186,410,186,410,191,372,191"/>
+<area shape="rect" id="Node000009" href="$d0/d29/classproto_1_1RxContainer.html#a1b2e180fb838c06e4704724c13712107" title="Compile&#45;time unrolled dispatcher that calls a functor for a runtime field index." alt="" coords="431,233,575,273"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="365,206,427,226,425,231,363,211"/>
+<area shape="rect" id="Node000010" href="$d6/d58/classCustomSpan.html#a9b193ceee70ecda6e7bf8ba824cdca37" title=" " alt="" coords="420,297,587,323"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="355,206,374,219,389,236,398,252,406,268,422,283,433,290,431,294,418,287,402,271,393,255,385,239,370,223,352,211"/>
+<area shape="rect" id="Node000012" href="$d6/dca/namespaceproto.html#a1881b92fb56d58d8b379b994eff4eb7d" title="Convert FieldName enum to string." alt="" coords="443,347,564,372"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="359,207,374,219,386,234,392,249,398,278,403,305,410,319,422,332,432,340,429,344,418,336,406,322,398,307,392,279,387,251,381,237,370,223,355,211"/>
+<area shape="rect" id="Node000007" href="$d5/d09/classproto_1_1FieldContainer.html#ad87097e46757f1f4d2ead100ef965f1e" title="Apply a callable to each field in the container." alt="" coords="653,169,811,209"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="583,186,639,186,639,191,583,191"/>
+<area shape="rect" id="Node000008" href="$d5/d09/classproto_1_1FieldContainer.html#a47927806803e31410e7e5bf48e7d50b2" title="Helper to apply a callable to each field in the tuple (implementation)." alt="" coords="877,169,1036,209"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="812,186,863,186,863,191,812,191"/>
+<area shape="rect" id="Node000011" href="$d6/d58/classCustomSpan.html#adf665d2b306d731b0ae135ed3f328531" title=" " alt="" coords="635,297,829,323"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="587,307,621,307,621,313,587,313"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="proto::lacte::LacteHostProtocol&lt; RX_BASE, TX_BASE &gt;" name="proto::lacte::LacteHostProtocol&lt; RX_BASE, TX_BASE &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1089,49,1312,89"/>
+<area shape="rect" id="Node000002" href="$d6/dc5/classproto_1_1ProtocolEndpoint.html" title=" " alt="" coords="829,27,1040,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1054,66,1089,66,1089,71,1054,71"/>
+<area shape="rect" id="Node000003" href="$d0/d29/classproto_1_1RxContainer.html" title=" " alt="" coords="503,5,744,60"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="758,46,829,54,829,59,758,51"/>
+<area shape="rect" id="Node000004" href="$d5/d09/classproto_1_1FieldContainer.html" title="Generic container for protocol fields with CRC and debug support." alt="" coords="295,15,453,55"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="467,32,503,31,503,37,467,37"/>
+<area shape="rect" id="Node000005" href="$d6/df7/structproto_1_1TransformToFieldsTuple.html" title=" " alt="" coords="5,49,187,89"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="200,54,294,42,295,47,201,59"/>
+<area shape="rect" id="Node000007" href="$d5/d09/classproto_1_1FieldContainer.html" title="Generic container for protocol fields with CRC and debug support." alt="" coords="295,81,453,121"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="201,82,211,83,295,92,294,97,210,89,200,87"/>
+<area shape="rect" id="Node000006" href="$d4/dd2/classproto_1_1TxContainer.html" title=" " alt="" coords="503,84,744,139"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="757,90,829,80,829,86,758,96"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="467,102,503,104,502,109,467,107"/>
+</map>

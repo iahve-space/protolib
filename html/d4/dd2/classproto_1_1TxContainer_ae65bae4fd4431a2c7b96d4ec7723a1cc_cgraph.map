@@ -1,0 +1,11 @@
+<map id="proto::TxContainer::TxContainer" name="proto::TxContainer::TxContainer">
+<area shape="rect" id="Node000001" title="Binds default matchers to LEN/ALEN/CRC (if those fields exist) and performs an initial Reset()." alt="" coords="5,5,148,45"/>
+<area shape="rect" id="Node000002" href="$d4/dd2/classproto_1_1TxContainer.html#a4b5b6b72f53c218e00d1c3b576c2e439" title="Reset the internal state of the container and its fields." alt="" coords="196,5,339,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,23,183,23,183,28,148,28"/>
+<area shape="rect" id="Node000003" href="$d5/d09/classproto_1_1FieldContainer.html#a44b086a546a434a9ba804d3081559d29" title="Reset all fields, CRC, and internal state to defaults." alt="" coords="387,5,545,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="339,23,373,23,373,28,339,28"/>
+<area shape="rect" id="Node000004" href="$d5/d09/classproto_1_1FieldContainer.html#ad87097e46757f1f4d2ead100ef965f1e" title="Apply a callable to each field in the container." alt="" coords="593,5,752,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="546,23,580,23,580,28,546,28"/>
+<area shape="rect" id="Node000005" href="$d5/d09/classproto_1_1FieldContainer.html#a47927806803e31410e7e5bf48e7d50b2" title="Helper to apply a callable to each field in the tuple (implementation)." alt="" coords="800,5,959,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="752,23,786,23,786,28,752,28"/>
+</map>

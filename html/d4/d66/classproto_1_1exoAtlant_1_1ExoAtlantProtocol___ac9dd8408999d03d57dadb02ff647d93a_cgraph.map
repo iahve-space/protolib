@@ -1,0 +1,9 @@
+<map id="proto::exoAtlant::ExoAtlantProtocol_::serialize" name="proto::exoAtlant::ExoAtlantProtocol_::serialize">
+<area shape="rect" id="Node000001" title="Сериализация исходящего блока данных" alt="" coords="5,77,201,117"/>
+<area shape="rect" id="Node000002" href="$d6/d58/classCustomSpan.html#aa94cafb45950ce4dbcf4e57f6c22615a" title=" " alt="" coords="308,5,449,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,74,249,39,294,29,295,34,250,45,152,79"/>
+<area shape="rect" id="Node000003" href="$d3/d19/classproto_1_1ProtocolNoSysEndpoint.html#a0edc938ab2c7d12ca9defdf25ab767b8" title=" " alt="" coords="249,55,508,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,94,236,94,236,99,202,99"/>
+<area shape="rect" id="Node000004" href="$d6/d58/classCustomSpan.html#a7612ff42bfc672d97414e1e3ddc391b9" title=" " alt="" coords="309,163,448,188"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="154,114,250,147,296,159,295,164,249,153,153,119"/>
+</map>

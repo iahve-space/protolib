@@ -1,0 +1,5 @@
+<map id="proto::ProtocolNoSysEndpoint::set_debug" name="proto::ProtocolNoSysEndpoint::set_debug">
+<area shape="rect" id="Node000001" title=" " alt="" coords="268,5,483,45"/>
+<area shape="rect" id="Node000002" href="$d3/d19/classproto_1_1ProtocolNoSysEndpoint.html#a4d52b9d808999b178d1b4fdd789d4678" title="Construct endpoint and install a permanent RX callback that snapshots the last frame&#39;s type code." alt="" coords="5,5,220,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="255,28,220,28,220,23,255,23"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="Interface.hpp" name="Interface.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="334,5,442,31"/>
+<area shape="rect" id="Node000002" href="$d9/d32/TxContainer_8hpp.html" title="TX&#45;side container that builds protocol frames from a set of fields." alt="" coords="253,79,381,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="368,43,330,80,326,77,364,39"/>
+<area shape="rect" id="Node000009" href="$dc/d61/Ymodem_8hpp.html" title=" " alt="" coords="406,79,514,104"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="411,39,450,77,446,80,407,43"/>
+<area shape="rect" id="Node000003" href="$d8/db2/ProtocolEndpoint_8hpp.html" title="Base endpoint class for protocol implementations." alt="" coords="36,152,196,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="272,111,149,154,148,149,271,106"/>
+<area shape="rect" id="Node000007" href="$dc/dc4/ProtocolNoSysEndpoint_8hpp.html" title=" " alt="" coords="220,152,422,177"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="321,118,323,152,318,152,316,118"/>
+<area shape="rect" id="Node000004" href="$d9/ddb/LacteProtocol_8hpp.html" title=" " alt="" coords="54,299,193,324"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="67,185,41,197,20,213,9,230,9,239,12,249,25,265,42,278,79,296,77,301,39,283,22,269,8,252,3,240,4,229,16,209,38,193,65,180"/>
+<area shape="rect" id="Node000006" href="$dd/d58/LacteProtocolPrototype_8hpp.html" title=" " alt="" coords="23,225,224,251"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="121,191,125,225,120,226,116,191"/>
+<area shape="rect" id="Node000005" href="$dc/d80/VirtualBoard_8hpp.html" title=" " alt="" coords="58,372,189,397"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="126,338,126,372,121,372,121,338"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="126,264,126,299,121,299,121,264"/>
+<area shape="rect" id="Node000008" href="$d6/de6/exoAtlantProtocol_8hpp.html" title=" " alt="" coords="249,225,414,251"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="327,191,332,225,327,226,322,192"/>
+<area shape="poly" id="edge10_Node000009_Node000004" title=" " alt="" coords="465,118,465,148,461,185,449,221,428,253,411,264,388,274,328,290,259,301,193,308,193,302,258,296,327,285,386,269,409,260,424,249,445,219,456,184,460,148,459,118"/>
+</map>

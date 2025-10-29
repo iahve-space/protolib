@@ -1,0 +1,7 @@
+<map id="proto::lacte::InfoPacketType" name="proto::lacte::InfoPacketType">
+<area shape="rect" id="Node000001" title=" " alt="" coords="99,93,301,119"/>
+<area shape="rect" id="Node000002" href="$d9/db4/classproto_1_1lacte_1_1ErrorFlags.html" title=" " alt="" coords="5,5,176,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,37,187,91,183,95,115,41"/>
+<area shape="rect" id="Node000003" href="$df/dc6/structproto_1_1lacte_1_1RFIDNumberType.html" title=" " alt="" coords="201,5,418,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="285,41,217,95,213,91,282,37"/>
+</map>

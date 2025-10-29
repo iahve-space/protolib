@@ -1,0 +1,5 @@
+<map id="proto::RxContainer&lt; Fields, TCrc &gt;" name="proto::RxContainer&lt; Fields, TCrc &gt;">
+<area shape="rect" id="Node000001" title="Incremental parser for protocol frames based on field prototypes." alt="" coords="13,93,157,133"/>
+<area shape="rect" id="Node000002" href="$d5/d09/classproto_1_1FieldContainer.html" title="Generic container for protocol fields with CRC and debug support." alt="" coords="5,5,164,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,59,87,93,82,93,82,59"/>
+</map>

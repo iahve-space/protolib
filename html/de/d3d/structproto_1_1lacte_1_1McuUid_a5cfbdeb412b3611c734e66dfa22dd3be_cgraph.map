@@ -1,0 +1,11 @@
+<map id="proto::lacte::McuUid::McuUid" name="proto::lacte::McuUid::McuUid">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,27,159,67"/>
+<area shape="rect" id="Node000002" href="$d6/d58/classCustomSpan.html#aa94cafb45950ce4dbcf4e57f6c22615a" title=" " alt="" coords="207,5,348,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,33,192,28,193,33,159,38"/>
+<area shape="rect" id="Node000003" href="$d3/d81/namespaceproto_1_1lacte.html#a1ea4387b238442615d817d3f07b5160e" title=" " alt="" coords="207,55,347,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="159,56,194,61,193,66,159,61"/>
+<area shape="rect" id="Node000004" href="$d6/d58/classCustomSpan.html#afeef45fadf14f15d82570e9022861177" title=" " alt="" coords="396,37,544,63"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="347,63,382,59,382,64,348,69"/>
+<area shape="rect" id="Node000005" href="$d6/d58/classCustomSpan.html#a7612ff42bfc672d97414e1e3ddc391b9" title=" " alt="" coords="401,87,539,112"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="348,81,387,86,387,92,347,87"/>
+</map>

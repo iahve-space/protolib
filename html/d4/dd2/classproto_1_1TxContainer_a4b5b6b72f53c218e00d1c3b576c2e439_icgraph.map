@@ -1,0 +1,13 @@
+<map id="proto::TxContainer::reset" name="proto::TxContainer::reset">
+<area shape="rect" id="Node000001" title="Reset the internal state of the container and its fields." alt="" coords="459,101,601,141"/>
+<area shape="rect" id="Node000002" href="$d4/dd2/classproto_1_1TxContainer.html#a4636ad0f62ff172c7a74231bc9757985" title="Build and send a packet, setting field values from a pack of FieldInfo." alt="" coords="268,69,411,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="445,110,410,104,411,99,446,105"/>
+<area shape="rect" id="Node000006" href="$d4/dd2/classproto_1_1TxContainer.html#ae65bae4fd4431a2c7b96d4ec7723a1cc" title="Binds default matchers to LEN/ALEN/CRC (if those fields exist) and performs an initial Reset()." alt="" coords="268,133,411,173"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="446,138,411,144,410,139,445,133"/>
+<area shape="rect" id="Node000003" href="$d6/dc5/classproto_1_1ProtocolEndpoint.html#a5807ea4b27b179c2b19f43643fcc2d59" title=" " alt="" coords="25,5,200,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="254,68,183,48,185,43,255,63"/>
+<area shape="rect" id="Node000004" href="$d6/dc5/classproto_1_1ProtocolEndpoint.html#abfed28efa8dd14d2e45f194493e5816f" title=" " alt="" coords="25,69,200,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="254,92,200,92,200,87,254,87"/>
+<area shape="rect" id="Node000005" href="$d3/d19/classproto_1_1ProtocolNoSysEndpoint.html#a0edc938ab2c7d12ca9defdf25ab767b8" title=" " alt="" coords="5,133,220,173"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="255,116,185,136,183,131,254,111"/>
+</map>

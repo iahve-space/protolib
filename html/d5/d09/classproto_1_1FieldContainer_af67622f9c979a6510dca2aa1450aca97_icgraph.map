@@ -1,0 +1,11 @@
+<map id="proto::FieldContainer::set_debug" name="proto::FieldContainer::set_debug">
+<area shape="rect" id="Node000001" title="Enable or disable debug mode for the container and its fields." alt="" coords="531,37,689,77"/>
+<area shape="rect" id="Node000002" href="$d3/d19/classproto_1_1ProtocolNoSysEndpoint.html#a1ed722d6da57cc7b70c48e032aecfd1f" title=" " alt="" coords="268,5,483,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="516,47,482,43,483,37,517,42"/>
+<area shape="rect" id="Node000004" href="$d6/dc5/classproto_1_1ProtocolEndpoint.html#ac9f00178274a409fceacb8e6379d391f" title=" " alt="" coords="288,69,463,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="517,73,463,80,462,75,516,67"/>
+<area shape="rect" id="Node000003" href="$d3/d19/classproto_1_1ProtocolNoSysEndpoint.html#a4d52b9d808999b178d1b4fdd789d4678" title="Construct endpoint and install a permanent RX callback that snapshots the last frame&#39;s type code." alt="" coords="5,5,220,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="255,28,220,28,220,23,255,23"/>
+<area shape="rect" id="Node000005" href="$d6/dc5/classproto_1_1ProtocolEndpoint.html#af1e4aec725ab34fe336f3dc40bbae6aa" title="Construct endpoint and install a permanent RX callback that snapshots the last frame&#39;s type code." alt="" coords="25,69,200,109"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="274,92,200,92,200,87,274,87"/>
+</map>

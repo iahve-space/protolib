@@ -1,0 +1,7 @@
+<map id="proto::RxContainer::add_receive_callback" name="proto::RxContainer::add_receive_callback">
+<area shape="rect" id="Node000001" title="Subscribes to notifications when a full frame is parsed." alt="" coords="268,37,439,77"/>
+<area shape="rect" id="Node000002" href="$d6/dc5/classproto_1_1ProtocolEndpoint.html#af1e4aec725ab34fe336f3dc40bbae6aa" title="Construct endpoint and install a permanent RX callback that snapshots the last frame&#39;s type code." alt="" coords="25,5,200,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="254,47,200,40,200,34,255,42"/>
+<area shape="rect" id="Node000003" href="$d3/d19/classproto_1_1ProtocolNoSysEndpoint.html#a4d52b9d808999b178d1b4fdd789d4678" title="Construct endpoint and install a permanent RX callback that snapshots the last frame&#39;s type code." alt="" coords="5,69,220,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="255,73,221,78,220,72,254,68"/>
+</map>

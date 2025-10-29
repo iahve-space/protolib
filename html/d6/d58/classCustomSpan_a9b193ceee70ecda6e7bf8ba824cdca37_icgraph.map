@@ -1,0 +1,9 @@
+<map id="CustomSpan::subspan" name="CustomSpan::subspan">
+<area shape="rect" id="Node000001" title=" " alt="" coords="441,45,608,70"/>
+<area shape="rect" id="Node000002" href="$d0/d29/classproto_1_1RxContainer.html#a62f66f4bc347105478aba5bffd14796f" title="Feeds a chunk of bytes to the parser and advances internal state." alt="" coords="249,37,393,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="428,60,394,60,394,55,428,55"/>
+<area shape="rect" id="Node000003" href="$d4/d66/classproto_1_1exoAtlant_1_1ExoAtlantProtocol__.html#ab292d3fc1828c447d3e9d654aff5fcda" title="Разбор входящего блока данных" alt="" coords="5,5,201,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="235,47,201,42,202,37,236,42"/>
+<area shape="rect" id="Node000004" href="$d6/dc5/classproto_1_1ProtocolEndpoint.html#adf613bd3ee363704002a992199be43f1" title="Wire the endpoint to external RX and TX interfaces." alt="" coords="16,69,191,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="236,73,191,79,190,74,235,67"/>
+</map>

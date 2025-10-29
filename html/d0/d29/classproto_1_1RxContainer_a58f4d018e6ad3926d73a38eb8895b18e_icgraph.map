@@ -1,0 +1,5 @@
+<map id="proto::RxContainer::check_type" name="proto::RxContainer::check_type">
+<area shape="rect" id="Node000001" title="Updates DATA_FIELD alternative by received TYPE_FIELD and validates its expected size." alt="" coords="197,5,341,45"/>
+<area shape="rect" id="Node000002" href="$d0/d29/classproto_1_1RxContainer.html#a03bd1068d065c680d72c9c2c2cf9ebee" title="Constructs an RxContainer and auto&#45;binds default matchers for standard fields." alt="" coords="5,5,149,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,28,149,28,149,23,183,23"/>
+</map>

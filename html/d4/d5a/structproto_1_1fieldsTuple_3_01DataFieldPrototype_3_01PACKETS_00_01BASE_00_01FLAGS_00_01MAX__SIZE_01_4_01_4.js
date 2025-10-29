@@ -1,0 +1,4 @@
+var structproto_1_1fieldsTuple_3_01DataFieldPrototype_3_01PACKETS_00_01BASE_00_01FLAGS_00_01MAX__SIZE_01_4_01_4 =
+[
+    [ "Type", "d4/d5a/structproto_1_1fieldsTuple_3_01DataFieldPrototype_3_01PACKETS_00_01BASE_00_01FLAGS_00_01MAX__SIZE_01_4_01_4.html#a84e8a8c593175e1c5317a29c8f96e60f", null ]
+];

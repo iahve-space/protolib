@@ -1,0 +1,12 @@
+<map id="RfidNumberType.hpp" name="RfidNumberType.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="97,5,254,31"/>
+<area shape="rect" id="Node000002" href="$d8/daa/InfoPacketType_8hpp.html" title=" " alt="" coords="47,79,194,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,43,132,80,127,77,156,40"/>
+<area shape="rect" id="Node000005" href="$dc/d80/VirtualBoard_8hpp.html" title=" " alt="" coords="110,299,241,324"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="192,41,209,78,221,127,221,178,216,215,206,252,184,300,179,297,201,250,211,214,215,177,216,128,203,80,187,43"/>
+<area shape="rect" id="Node000003" href="$dd/d58/LacteProtocolPrototype_8hpp.html" title=" " alt="" coords="5,152,207,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,118,111,152,106,151,113,117"/>
+<area shape="rect" id="Node000004" href="$d9/ddb/LacteProtocol_8hpp.html" title=" " alt="" coords="53,225,191,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="114,190,122,225,117,226,109,191"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="141,260,169,297,165,300,137,263"/>
+</map>

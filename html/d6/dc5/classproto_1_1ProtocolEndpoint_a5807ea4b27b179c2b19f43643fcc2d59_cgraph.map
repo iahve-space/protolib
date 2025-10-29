@@ -1,0 +1,15 @@
+<map id="proto::ProtocolEndpoint::request" name="proto::ProtocolEndpoint::request">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,37,180,77"/>
+<area shape="rect" id="Node000002" href="$d4/dd2/classproto_1_1TxContainer.html#a4636ad0f62ff172c7a74231bc9757985" title="Build and send a packet, setting field values from a pack of FieldInfo." alt="" coords="228,37,371,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,55,214,55,214,60,181,60"/>
+<area shape="rect" id="Node000003" href="$d5/d09/classproto_1_1FieldContainer.html#adb8a7ae096301186b9fe7ebb5763fcbd" title="Check if a field with the given FieldName exists in the container." alt="" coords="419,5,577,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="370,43,405,38,406,43,371,49"/>
+<area shape="rect" id="Node000004" href="$d4/dd2/classproto_1_1TxContainer.html#a4b5b6b72f53c218e00d1c3b576c2e439" title="Reset the internal state of the container and its fields." alt="" coords="427,69,569,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="371,66,413,73,413,78,370,71"/>
+<area shape="rect" id="Node000005" href="$d5/d09/classproto_1_1FieldContainer.html#a44b086a546a434a9ba804d3081559d29" title="Reset all fields, CRC, and internal state to defaults." alt="" coords="625,69,784,109"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="570,87,612,87,612,92,570,92"/>
+<area shape="rect" id="Node000006" href="$d5/d09/classproto_1_1FieldContainer.html#ad87097e46757f1f4d2ead100ef965f1e" title="Apply a callable to each field in the container." alt="" coords="832,69,991,109"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="784,87,818,87,818,92,784,92"/>
+<area shape="rect" id="Node000007" href="$d5/d09/classproto_1_1FieldContainer.html#a47927806803e31410e7e5bf48e7d50b2" title="Helper to apply a callable to each field in the tuple (implementation)." alt="" coords="1039,69,1197,109"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="991,87,1025,87,1025,92,991,92"/>
+</map>

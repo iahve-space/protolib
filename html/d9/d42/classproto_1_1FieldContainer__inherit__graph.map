@@ -1,0 +1,23 @@
+<map id="proto::FieldContainer&lt; Fields, TCrc &gt;" name="proto::FieldContainer&lt; Fields, TCrc &gt;">
+<area shape="rect" id="Node000001" title="Generic container for protocol fields with CRC and debug support." alt="" coords="5,380,164,420"/>
+<area shape="rect" id="Node000002" href="$d0/d29/classproto_1_1RxContainer.html" title=" " alt="" coords="245,5,420,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,366,100,307,123,232,158,154,182,117,210,85,244,61,247,66,214,89,186,121,163,156,128,234,105,308,93,367"/>
+<area shape="rect" id="Node000003" href="$d0/d29/classproto_1_1RxContainer.html" title=" " alt="" coords="212,99,453,154"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="93,366,108,320,133,266,166,211,187,186,210,163,227,152,230,156,214,167,191,189,171,214,137,269,113,322,98,368"/>
+<area shape="rect" id="Node000004" href="$d0/d29/classproto_1_1RxContainer.html" title=" " alt="" coords="212,178,453,233"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="102,366,147,304,176,271,210,243,233,230,235,235,214,248,180,275,151,308,107,370"/>
+<area shape="rect" id="Node000005" href="$d0/d29/classproto_1_1RxContainer.html" title=" " alt="" coords="252,257,413,297"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="117,369,160,337,211,307,251,292,253,297,213,312,163,341,121,373"/>
+<area shape="rect" id="Node000006" href="$d4/dd2/classproto_1_1TxContainer.html" title=" " alt="" coords="245,321,420,391"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="177,381,245,369,246,374,178,386"/>
+<area shape="rect" id="Node000007" href="$d4/dd2/classproto_1_1TxContainer.html" title=" " alt="" coords="212,415,453,470"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="178,413,212,419,211,424,177,419"/>
+<area shape="rect" id="Node000008" href="$d4/dd2/classproto_1_1TxContainer.html" title=" " alt="" coords="212,494,453,549"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="126,426,167,453,213,479,242,491,240,496,211,484,164,458,123,430"/>
+<area shape="rect" id="Node000009" href="$d4/dd2/classproto_1_1TxContainer.html" title=" " alt="" coords="253,573,413,613"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="105,430,149,496,179,529,213,558,254,577,251,581,211,562,175,533,145,499,101,433"/>
+<area shape="rect" id="Node000010" href="$d0/d29/classproto_1_1RxContainer.html" title="Incremental parser for protocol frames based on field prototypes." alt="" coords="261,637,405,677"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="98,432,114,476,138,528,171,580,191,603,214,623,236,637,261,646,259,651,234,641,210,627,187,607,167,583,133,530,109,478,93,434"/>
+<area shape="rect" id="Node000011" href="$d4/dd2/classproto_1_1TxContainer.html" title=" " alt="" coords="261,701,404,741"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="94,433,106,489,128,558,163,628,187,660,214,687,236,702,262,711,260,716,234,706,210,691,182,663,159,630,123,560,101,490,88,434"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="proto::ProtocolEndpoint::ProtocolEndpoint" name="proto::ProtocolEndpoint::ProtocolEndpoint">
+<area shape="rect" id="Node000001" title="Construct endpoint and install a permanent RX callback that snapshots the last frame&#39;s type code." alt="" coords="5,63,180,103"/>
+<area shape="rect" id="Node000002" href="$d0/d29/classproto_1_1RxContainer.html#af01eab41732565aa78da59ae852f814f" title="Subscribes to notifications when a full frame is parsed." alt="" coords="230,5,401,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,60,223,46,225,51,172,65"/>
+<area shape="rect" id="Node000003" href="$d6/d58/classCustomSpan.html#a94497ad048636cd0b4ec22d4a486ab75" title=" " alt="" coords="238,70,393,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,80,224,80,224,85,180,85"/>
+<area shape="rect" id="Node000004" href="$d6/dc5/classproto_1_1ProtocolEndpoint.html#ac9f00178274a409fceacb8e6379d391f" title=" " alt="" coords="228,120,403,160"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="172,100,225,114,223,119,170,105"/>
+<area shape="rect" id="Node000005" href="$d5/d09/classproto_1_1FieldContainer.html#af67622f9c979a6510dca2aa1450aca97" title="Enable or disable debug mode for the container and its fields." alt="" coords="451,120,609,160"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="403,137,437,137,437,143,403,143"/>
+</map>

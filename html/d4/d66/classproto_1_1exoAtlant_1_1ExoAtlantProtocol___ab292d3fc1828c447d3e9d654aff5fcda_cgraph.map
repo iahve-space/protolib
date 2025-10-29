@@ -1,0 +1,30 @@
+<map id="proto::exoAtlant::ExoAtlantProtocol_::parse" name="proto::exoAtlant::ExoAtlantProtocol_::parse">
+<area shape="rect" id="Node000001" title="Разбор входящего блока данных" alt="" coords="5,109,201,149"/>
+<area shape="rect" id="Node000002" href="$d6/d58/classCustomSpan.html#aa94cafb45950ce4dbcf4e57f6c22615a" title=" " alt="" coords="251,36,392,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,106,272,64,274,69,160,111"/>
+<area shape="rect" id="Node000003" href="$d6/d58/classCustomSpan.html#a94497ad048636cd0b4ec22d4a486ab75" title=" " alt="" coords="447,5,602,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,117,295,100,345,87,392,70,416,55,440,40,457,33,459,38,443,44,419,60,394,75,346,92,296,105,202,122"/>
+<area shape="rect" id="Node000004" href="$d0/d29/classproto_1_1RxContainer.html#a62f66f4bc347105478aba5bffd14796f" title="Feeds a chunk of bytes to the parser and advances internal state." alt="" coords="249,137,393,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="202,139,236,143,235,148,201,144"/>
+<area shape="rect" id="Node000014" href="$d6/d58/classCustomSpan.html#a7612ff42bfc672d97414e1e3ddc391b9" title=" " alt="" coords="252,201,391,227"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="152,146,250,186,272,194,270,199,248,191,150,151"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="366,134,391,116,406,97,414,78,422,59,440,40,448,35,451,39,443,44,427,62,419,80,411,99,395,120,369,139"/>
+<area shape="rect" id="Node000005" href="$d6/d58/classCustomSpan.html#afeef45fadf14f15d82570e9022861177" title=" " alt="" coords="451,55,599,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="358,134,440,90,463,82,465,87,442,95,361,139"/>
+<area shape="rect" id="Node000006" href="$d5/d09/classproto_1_1FieldContainer.html#a839d6710504914db7f4f92b0e63029cf" title="Check if debug mode is enabled." alt="" coords="445,105,604,145"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="393,143,431,137,432,142,394,148"/>
+<area shape="rect" id="Node000007" href="$d5/d09/classproto_1_1FieldContainer.html#a44b086a546a434a9ba804d3081559d29" title="Reset all fields, CRC, and internal state to defaults." alt="" coords="445,169,604,209"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="394,165,432,171,431,177,393,171"/>
+<area shape="rect" id="Node000010" href="$d0/d29/classproto_1_1RxContainer.html#a1b2e180fb838c06e4704724c13712107" title="Compile&#45;time unrolled dispatcher that calls a functor for a runtime field index." alt="" coords="453,233,597,273"/>
+<area shape="poly" id="edge10_Node000004_Node000010" title=" " alt="" coords="371,174,395,186,419,203,443,218,456,225,454,230,440,223,416,207,392,191,369,179"/>
+<area shape="rect" id="Node000011" href="$d6/d58/classCustomSpan.html#a9b193ceee70ecda6e7bf8ba824cdca37" title=" " alt="" coords="441,297,608,323"/>
+<area shape="poly" id="edge11_Node000004_Node000011" title=" " alt="" coords="379,175,395,187,413,212,419,237,426,260,443,283,452,289,448,293,439,287,421,263,414,238,408,214,391,191,376,179"/>
+<area shape="rect" id="Node000013" href="$d6/dca/namespaceproto.html#a1881b92fb56d58d8b379b994eff4eb7d" title="Convert FieldName enum to string." alt="" coords="464,347,585,372"/>
+<area shape="poly" id="edge13_Node000004_Node000013" title=" " alt="" coords="381,175,395,187,409,206,416,225,419,262,422,298,429,315,443,332,454,340,450,344,439,336,425,318,417,299,414,263,411,227,404,209,391,190,378,179"/>
+<area shape="rect" id="Node000008" href="$d5/d09/classproto_1_1FieldContainer.html#ad87097e46757f1f4d2ead100ef965f1e" title="Apply a callable to each field in the container." alt="" coords="674,169,833,209"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="604,186,660,186,660,191,604,191"/>
+<area shape="rect" id="Node000009" href="$d5/d09/classproto_1_1FieldContainer.html#a47927806803e31410e7e5bf48e7d50b2" title="Helper to apply a callable to each field in the tuple (implementation)." alt="" coords="899,169,1057,209"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="833,186,885,186,885,191,833,191"/>
+<area shape="rect" id="Node000012" href="$d6/d58/classCustomSpan.html#adf665d2b306d731b0ae135ed3f328531" title=" " alt="" coords="656,297,851,323"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="608,307,642,307,642,313,608,313"/>
+</map>

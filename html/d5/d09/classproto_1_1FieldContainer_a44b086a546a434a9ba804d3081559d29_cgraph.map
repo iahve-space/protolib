@@ -1,0 +1,7 @@
+<map id="proto::FieldContainer::reset" name="proto::FieldContainer::reset">
+<area shape="rect" id="Node000001" title="Reset all fields, CRC, and internal state to defaults." alt="" coords="5,5,164,45"/>
+<area shape="rect" id="Node000002" href="$d5/d09/classproto_1_1FieldContainer.html#ad87097e46757f1f4d2ead100ef965f1e" title="Apply a callable to each field in the container." alt="" coords="212,5,371,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,23,198,23,198,28,164,28"/>
+<area shape="rect" id="Node000003" href="$d5/d09/classproto_1_1FieldContainer.html#a47927806803e31410e7e5bf48e7d50b2" title="Helper to apply a callable to each field in the tuple (implementation)." alt="" coords="419,5,577,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="371,23,405,23,405,28,371,28"/>
+</map>

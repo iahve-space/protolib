@@ -1,0 +1,10 @@
+<map id="ProtocolEndpoint.hpp" name="ProtocolEndpoint.hpp">
+<area shape="rect" id="Node000001" title="Base endpoint class for protocol implementations." alt="" coords="5,5,165,31"/>
+<area shape="rect" id="Node000002" href="$d9/ddb/LacteProtocol_8hpp.html" title=" " alt="" coords="16,152,155,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,42,53,60,44,79,43,99,50,118,75,150,70,153,45,121,37,100,39,78,49,57,62,39"/>
+<area shape="rect" id="Node000004" href="$dd/d58/LacteProtocolPrototype_8hpp.html" title=" " alt="" coords="54,79,255,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="108,39,145,77,142,80,104,43"/>
+<area shape="rect" id="Node000003" href="$dc/d80/VirtualBoard_8hpp.html" title=" " alt="" coords="20,225,151,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="88,191,88,225,83,225,83,191"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="136,116,98,154,95,150,132,112"/>
+</map>
