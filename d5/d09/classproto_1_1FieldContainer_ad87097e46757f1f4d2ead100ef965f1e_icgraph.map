@@ -1,27 +1,29 @@
 <map id="proto::FieldContainer::for_each_type" name="proto::FieldContainer::for_each_type">
-<area shape="rect" id="Node000001" title="Apply a callable to each field in the container." alt="" coords="963,133,1121,173"/>
-<area shape="rect" id="Node000002" href="$d5/d09/classproto_1_1FieldContainer.html#a44b086a546a434a9ba804d3081559d29" title="Reset all fields, CRC, and internal state to defaults." alt="" coords="756,133,915,173"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="949,156,915,156,915,151,949,151"/>
-<area shape="rect" id="Node000003" href="$d0/d29/classproto_1_1RxContainer.html#a62f66f4bc347105478aba5bffd14796f" title="Feeds a chunk of bytes to the parser and advances internal state." alt="" coords="538,37,682,77"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="784,129,707,92,675,80,677,75,709,87,787,124"/>
-<area shape="rect" id="Node000006" href="$d4/d66/classproto_1_1exoAtlant_1_1ExoAtlantProtocol__.html#a98f8963b76c80c7846389fab7aa76bab" title="Сброс состояния парсера" alt="" coords="512,101,708,141"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="742,143,708,138,709,133,742,137"/>
-<area shape="rect" id="Node000007" href="$d4/dd2/classproto_1_1TxContainer.html#a4b5b6b72f53c218e00d1c3b576c2e439" title="Reset the internal state of the container and its fields." alt="" coords="539,165,681,205"/>
-<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="743,169,682,178,681,173,742,164"/>
-<area shape="rect" id="Node000013" href="$d0/d29/classproto_1_1RxContainer.html#a03bd1068d065c680d72c9c2c2cf9ebee" title="Constructs an RxContainer and auto&#45;binds default matchers for standard fields." alt="" coords="538,229,682,269"/>
-<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="787,183,709,220,677,232,675,227,707,215,784,178"/>
-<area shape="rect" id="Node000004" href="$d4/d66/classproto_1_1exoAtlant_1_1ExoAtlantProtocol__.html#ab292d3fc1828c447d3e9d654aff5fcda" title="Разбор входящего блока данных" alt="" coords="268,5,464,45"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="523,49,464,41,465,36,524,43"/>
-<area shape="rect" id="Node000005" href="$d6/dc5/classproto_1_1ProtocolEndpoint.html#adf613bd3ee363704002a992199be43f1" title="Wire the endpoint to external RX and TX interfaces." alt="" coords="279,69,453,109"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="524,71,454,81,453,75,523,66"/>
-<area shape="rect" id="Node000008" href="$d4/dd2/classproto_1_1TxContainer.html#a4636ad0f62ff172c7a74231bc9757985" title="Build and send a packet, setting field values from a pack of FieldInfo." alt="" coords="295,165,437,205"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="525,188,437,188,437,183,525,183"/>
-<area shape="rect" id="Node000012" href="$d4/dd2/classproto_1_1TxContainer.html#ae65bae4fd4431a2c7b96d4ec7723a1cc" title="Binds default matchers to LEN/ALEN/CRC (if those fields exist) and performs an initial Reset()." alt="" coords="295,229,437,269"/>
-<area shape="poly" id="edge11_Node000007_Node000012" title=" " alt="" coords="526,210,438,233,437,228,525,205"/>
-<area shape="rect" id="Node000009" href="$d6/dc5/classproto_1_1ProtocolEndpoint.html#a5807ea4b27b179c2b19f43643fcc2d59" title=" " alt="" coords="25,101,200,141"/>
-<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="281,167,192,144,193,139,282,162"/>
-<area shape="rect" id="Node000010" href="$d6/dc5/classproto_1_1ProtocolEndpoint.html#abfed28efa8dd14d2e45f194493e5816f" title=" " alt="" coords="25,165,200,205"/>
-<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="281,188,200,188,200,183,281,183"/>
-<area shape="rect" id="Node000011" href="$d3/d19/classproto_1_1ProtocolNoSysEndpoint.html#a0edc938ab2c7d12ca9defdf25ab767b8" title=" " alt="" coords="5,229,220,269"/>
-<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="282,209,193,232,192,227,281,204"/>
+<area shape="rect" id="Node000001" title="Apply a callable to each field in the container." alt="" coords="981,165,1140,205"/>
+<area shape="rect" id="Node000002" href="$d5/d09/classproto_1_1FieldContainer.html#a44b086a546a434a9ba804d3081559d29" title="Reset all fields, CRC, and internal state to defaults." alt="" coords="775,165,933,205"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="967,188,933,188,933,183,967,183"/>
+<area shape="rect" id="Node000003" href="$d0/d29/classproto_1_1RxContainer.html#a62f66f4bc347105478aba5bffd14796f" title="Feeds a chunk of bytes to the parser and advances internal state." alt="" coords="557,69,701,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="803,161,726,124,694,112,696,107,728,119,805,156"/>
+<area shape="rect" id="Node000007" href="$d4/d66/classproto_1_1exoAtlant_1_1ExoAtlantProtocol__.html#a98f8963b76c80c7846389fab7aa76bab" title="Сброс состояния парсера" alt="" coords="531,133,727,173"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="760,175,727,170,727,165,761,169"/>
+<area shape="rect" id="Node000008" href="$d4/dd2/classproto_1_1TxContainer.html#a4b5b6b72f53c218e00d1c3b576c2e439" title="Reset the internal state of the container and its fields." alt="" coords="557,197,700,237"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="761,201,700,210,700,205,761,196"/>
+<area shape="rect" id="Node000014" href="$d0/d29/classproto_1_1RxContainer.html#a03bd1068d065c680d72c9c2c2cf9ebee" title="Constructs an RxContainer and auto&#45;binds default matchers for standard fields." alt="" coords="557,261,701,301"/>
+<area shape="poly" id="edge13_Node000002_Node000014" title=" " alt="" coords="805,215,728,252,696,264,694,259,726,247,803,210"/>
+<area shape="rect" id="Node000004" href="$d4/d66/classproto_1_1exoAtlant_1_1ExoAtlantProtocol__.html#ab292d3fc1828c447d3e9d654aff5fcda" title="Разбор входящего блока данных" alt="" coords="277,5,473,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="543,70,455,48,456,43,544,65"/>
+<area shape="rect" id="Node000005" href="$d3/d19/classproto_1_1ProtocolNoSysEndpoint.html#ab30ab8459d9984e0548be53972e4f498" title=" " alt="" coords="268,69,483,109"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="543,92,483,92,483,87,543,87"/>
+<area shape="rect" id="Node000006" href="$d6/dc5/classproto_1_1ProtocolEndpoint.html#adf613bd3ee363704002a992199be43f1" title="Wire the endpoint to external RX and TX interfaces." alt="" coords="288,133,463,173"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="544,113,456,136,455,131,543,108"/>
+<area shape="rect" id="Node000009" href="$d4/dd2/classproto_1_1TxContainer.html#a4636ad0f62ff172c7a74231bc9757985" title="Build and send a packet, setting field values from a pack of FieldInfo." alt="" coords="304,197,447,237"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="544,220,447,220,447,215,544,215"/>
+<area shape="rect" id="Node000013" href="$d4/dd2/classproto_1_1TxContainer.html#ae65bae4fd4431a2c7b96d4ec7723a1cc" title="Binds default matchers to LEN/ALEN/CRC (if those fields exist) and performs an initial Reset()." alt="" coords="304,261,447,301"/>
+<area shape="poly" id="edge12_Node000008_Node000013" title=" " alt="" coords="545,241,447,266,446,261,543,236"/>
+<area shape="rect" id="Node000010" href="$d6/dc5/classproto_1_1ProtocolEndpoint.html#a5807ea4b27b179c2b19f43643fcc2d59" title=" " alt="" coords="25,133,200,173"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="290,199,195,176,196,171,291,194"/>
+<area shape="rect" id="Node000011" href="$d6/dc5/classproto_1_1ProtocolEndpoint.html#abfed28efa8dd14d2e45f194493e5816f" title=" " alt="" coords="25,197,200,237"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="291,220,200,220,200,215,291,215"/>
+<area shape="rect" id="Node000012" href="$d3/d19/classproto_1_1ProtocolNoSysEndpoint.html#a0edc938ab2c7d12ca9defdf25ab767b8" title=" " alt="" coords="5,261,220,301"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="291,240,196,264,195,259,290,235"/>
 </map>

@@ -1,14 +1,16 @@
 <map id="CustomSpan::empty" name="CustomSpan::empty">
-<area shape="rect" id="Node000001" title=" " alt="" coords="479,99,633,125"/>
-<area shape="rect" id="Node000002" href="$d0/d29/classproto_1_1RxContainer.html#a62f66f4bc347105478aba5bffd14796f" title="Feeds a chunk of bytes to the parser and advances internal state." alt="" coords="268,63,412,103"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="465,102,412,95,413,90,465,97"/>
-<area shape="rect" id="Node000003" href="$d4/d66/classproto_1_1exoAtlant_1_1ExoAtlantProtocol__.html#ab292d3fc1828c447d3e9d654aff5fcda" title="Разбор входящего блока данных" alt="" coords="5,5,201,45"/>
-<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="522,95,479,72,430,53,372,40,312,32,201,26,202,21,313,27,373,35,431,48,481,67,525,90"/>
-<area shape="rect" id="Node000005" href="$d3/d81/namespaceproto_1_1lacte.html#a8e059adc76ca059dc745bb461ab1a734" title=" " alt="" coords="249,127,431,153"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="465,126,431,131,431,126,464,121"/>
-<area shape="rect" id="Node000006" href="$d6/dc5/classproto_1_1ProtocolEndpoint.html#af1e4aec725ab34fe336f3dc40bbae6aa" title="Construct endpoint and install a permanent RX callback that snapshots the last frame&#39;s type code." alt="" coords="253,177,427,217"/>
-<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="515,133,432,168,400,180,398,175,430,163,513,128"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="254,65,186,48,187,43,255,59"/>
-<area shape="rect" id="Node000004" href="$d6/dc5/classproto_1_1ProtocolEndpoint.html#adf613bd3ee363704002a992199be43f1" title="Wire the endpoint to external RX and TX interfaces." alt="" coords="16,69,191,109"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="254,88,191,90,191,84,254,82"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="497,103,652,129"/>
+<area shape="rect" id="Node000002" href="$d0/d29/classproto_1_1RxContainer.html#a62f66f4bc347105478aba5bffd14796f" title="Feeds a chunk of bytes to the parser and advances internal state." alt="" coords="287,67,431,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="483,106,431,99,431,94,484,101"/>
+<area shape="rect" id="Node000003" href="$d4/d66/classproto_1_1exoAtlant_1_1ExoAtlantProtocol__.html#ab292d3fc1828c447d3e9d654aff5fcda" title="Разбор входящего блока данных" alt="" coords="15,5,211,45"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="540,98,498,76,449,57,388,44,326,35,211,27,211,22,326,29,389,38,450,52,500,71,543,94"/>
+<area shape="rect" id="Node000006" href="$d3/d81/namespaceproto_1_1lacte.html#a8e059adc76ca059dc745bb461ab1a734" title=" " alt="" coords="268,131,449,157"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="484,130,450,135,449,130,483,125"/>
+<area shape="rect" id="Node000007" href="$d6/dc5/classproto_1_1ProtocolEndpoint.html#af1e4aec725ab34fe336f3dc40bbae6aa" title="Construct endpoint and install a permanent RX callback that snapshots the last frame&#39;s type code." alt="" coords="271,181,446,221"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="533,137,450,172,419,184,417,179,448,167,531,132"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="272,68,193,48,194,43,274,63"/>
+<area shape="rect" id="Node000004" href="$d3/d19/classproto_1_1ProtocolNoSysEndpoint.html#ab30ab8459d9984e0548be53972e4f498" title=" " alt="" coords="5,69,220,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="273,90,220,91,220,86,273,85"/>
+<area shape="rect" id="Node000005" href="$d6/dc5/classproto_1_1ProtocolEndpoint.html#adf613bd3ee363704002a992199be43f1" title="Wire the endpoint to external RX and TX interfaces." alt="" coords="25,133,200,173"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="274,112,188,136,187,131,273,107"/>
 </map>
