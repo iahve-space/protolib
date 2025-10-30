@@ -1,3 +1,10 @@
+# 1.0.0 (2025-10-30)
+
+
+### Bug Fixes
+
+* **fs_tools:** changed fs_tools tag ([e245a1f](https://github.com/iahve-space/protolib/commit/e245a1f6978d275b27e8bb6b601df3eab8ed39cf))
+
 ## [1.0.14](https://github.com/iahve-space/protolib/compare/v1.0.13...v1.0.14) (2025-10-30)
 
 
