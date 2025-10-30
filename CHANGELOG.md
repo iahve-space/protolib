@@ -5,6 +5,18 @@
 
 * **fs_tools:** changed fs_tools tag ([e245a1f](https://github.com/iahve-space/protolib/commit/e245a1f6978d275b27e8bb6b601df3eab8ed39cf))
 
+
+### Features
+
+* **init:** init ([7d76fd3](https://github.com/iahve-space/protolib/commit/7d76fd33b3bd89f9c2b81bf9fc30f32ef1295b3b))
+
+# 1.0.0 (2025-10-30)
+
+
+### Bug Fixes
+
+* **fs_tools:** changed fs_tools tag ([e245a1f](https://github.com/iahve-space/protolib/commit/e245a1f6978d275b27e8bb6b601df3eab8ed39cf))
+
 ## [1.0.14](https://github.com/iahve-space/protolib/compare/v1.0.13...v1.0.14) (2025-10-30)
 
 
