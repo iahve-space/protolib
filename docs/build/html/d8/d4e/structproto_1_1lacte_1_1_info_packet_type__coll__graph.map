@@ -1,0 +1,7 @@
+<map id="proto::lacte::InfoPacketType" name="proto::lacte::InfoPacketType">
+<area shape="rect" id="Node000001" title=" " alt="" coords="90,102,275,128"/>
+<area shape="rect" id="Node000002" href="$d9/d72/classproto_1_1lacte_1_1_error_flags.html" title=" " alt="" coords="5,5,160,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,39,171,99,168,103,104,43"/>
+<area shape="rect" id="Node000003" href="$df/d1b/structproto_1_1lacte_1_1_r_f_i_d_number_type.html" title=" " alt="" coords="184,5,384,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="262,43,197,103,194,99,258,39"/>
+</map>

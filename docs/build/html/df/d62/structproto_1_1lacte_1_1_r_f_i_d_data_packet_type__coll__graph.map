@@ -1,0 +1,27 @@
+<map id="proto::lacte::RFIDDataPacketType" name="proto::lacte::RFIDDataPacketType">
+<area shape="rect" id="Node000001" title=" " alt="" coords="357,314,580,340"/>
+<area shape="rect" id="Node000002" href="$df/dd7/structproto_1_1lacte_1_1_magic_word.html" title=" " alt="" coords="21,21,180,47"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,24,231,27,267,33,302,45,334,62,366,90,392,123,414,158,432,196,456,265,467,313,462,315,451,266,427,198,409,161,388,126,362,93,331,67,300,49,266,38,230,32,195,30"/>
+<area shape="rect" id="Node000003" href="$d0/d28/structproto_1_1lacte_1_1_lacte_id.html" title=" " alt="" coords="32,74,169,100"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,88,271,96,308,104,334,114,362,135,386,161,424,218,451,273,466,313,460,315,446,275,420,220,382,164,358,139,331,119,306,109,270,102,184,93"/>
+<area shape="rect" id="Node000004" href="$d7/d8d/structproto_1_1lacte_1_1_lacte_sn.html" title=" " alt="" coords="29,128,172,153"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="187,136,261,146,299,156,334,171,378,204,415,243,444,282,462,312,457,315,439,285,411,247,375,208,331,176,297,161,260,151,187,141"/>
+<area shape="rect" id="Node000005" href="$df/d79/structproto_1_1lacte_1_1_product_volume.html" title=" " alt="" coords="9,181,192,207"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="208,198,271,209,334,229,370,247,404,270,455,312,451,316,401,274,368,252,332,234,270,214,207,203"/>
+<area shape="rect" id="Node000006" href="$d6/deb/structproto_1_1lacte_1_1_prod_date.html" title=" " alt="" coords="26,234,175,260"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="191,253,261,263,333,278,388,294,435,311,433,316,386,299,332,283,260,269,190,259"/>
+<area shape="rect" id="Node000007" href="$d9/d99/structproto_1_1lacte_1_1_product_shelf_life.html" title=" " alt="" coords="5,288,196,313"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="211,306,357,316,356,322,211,311"/>
+<area shape="rect" id="Node000008" href="$d1/d60/structproto_1_1lacte_1_1_usage_time.html" title=" " alt="" coords="20,341,181,367"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="196,349,332,342,373,338,373,343,333,347,197,355"/>
+<area shape="rect" id="Node000009" href="$da/dbe/structproto_1_1lacte_1_1_mcu_uid.html" title=" " alt="" coords="31,394,170,420"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="185,400,257,391,332,377,389,358,438,338,440,343,391,363,333,382,258,396,186,405"/>
+<area shape="rect" id="Node000010" href="$d8/d8a/structproto_1_1lacte_1_1_machine_sn.html" title=" " alt="" coords="21,448,180,473"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="195,455,264,445,332,425,368,406,402,382,452,338,456,343,405,387,371,410,334,430,265,450,196,460"/>
+<area shape="rect" id="Node000011" href="$de/d0a/structproto_1_1lacte_1_1_activation_time.html" title=" " alt="" coords="10,501,191,527"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="206,513,270,504,302,494,331,481,375,449,412,409,440,370,458,339,462,342,444,373,416,412,379,453,334,486,304,499,271,509,207,518"/>
+<area shape="rect" id="Node000012" href="$d9/d0c/structproto_1_1lacte_1_1_drink_counter.html" title=" " alt="" coords="15,554,186,580"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="201,572,268,565,301,555,331,540,359,519,383,493,421,436,447,380,461,339,466,341,451,382,425,438,387,497,362,523,334,544,303,560,269,570,202,578"/>
+<area shape="rect" id="Node000013" href="$dc/dc4/structproto_1_1lacte_1_1_time_counter.html" title=" " alt="" coords="16,608,185,633"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="200,631,234,630,268,625,301,616,331,600,363,572,390,539,412,502,429,463,452,391,463,340,468,341,457,392,434,465,417,504,395,542,367,576,334,604,303,621,269,630,235,635,201,636"/>
+</map>

@@ -1,0 +1,13 @@
+var structproto_1_1lacte_1_1_version_packet_type =
+[
+    [ "Version", "d7/d8e/structproto_1_1lacte_1_1_version_packet_type_1_1_version.html", "d7/d8e/structproto_1_1lacte_1_1_version_packet_type_1_1_version" ],
+    [ "VersionPacketType", "d7/de4/structproto_1_1lacte_1_1_version_packet_type.html#aefbe55bd572035cc489706eb79bc4251", null ],
+    [ "VersionPacketType", "d7/de4/structproto_1_1lacte_1_1_version_packet_type.html#ae6a0a131a5a056511ba1e9d5d506da8a", null ],
+    [ "VersionPacketType", "d7/de4/structproto_1_1lacte_1_1_version_packet_type.html#a2ba1cbe4fe79875bb695c335c86132fc", null ],
+    [ "operator std::string", "d7/de4/structproto_1_1lacte_1_1_version_packet_type.html#a1bc77e404aea9addf210e82199be2fac", null ],
+    [ "operator==", "d7/de4/structproto_1_1lacte_1_1_version_packet_type.html#a108674149e63c5b2d143eca77b204398", null ],
+    [ "to_string", "d7/de4/structproto_1_1lacte_1_1_version_packet_type.html#a4b9607b322bf613d8f8a7ddab673c52b", null ],
+    [ "operator<<", "d7/de4/structproto_1_1lacte_1_1_version_packet_type.html#ada7111d42a9b598b9cc73146ca082f89", null ],
+    [ "m_major", "d7/de4/structproto_1_1lacte_1_1_version_packet_type.html#a067f296e2c289eb548570b16e2f5b5ea", null ],
+    [ "m_minor", "d7/de4/structproto_1_1lacte_1_1_version_packet_type.html#a4a54925b0a777987beb31f44a9243897", null ]
+];

@@ -1,0 +1,19 @@
+<map id="DrinkCounterType.hpp" name="DrinkCounterType.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="211,5,362,31"/>
+<area shape="rect" id="Node000002" href="$dd/d07/_helpers_8hpp.html" title=" " alt="" coords="241,79,332,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="289,31,289,63,284,63,284,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,153,56,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="241,108,71,154,70,149,240,103"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="80,153,144,178"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="258,108,157,149,155,144,256,103"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="168,153,229,178"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="273,107,227,145,223,141,270,103"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="253,153,320,178"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="289,105,289,137,284,137,284,105"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="344,153,416,178"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="304,103,354,141,351,145,301,107"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="440,153,493,178"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="318,103,426,145,424,150,316,108"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="518,153,605,178"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="333,102,503,146,502,152,332,108"/>
+</map>

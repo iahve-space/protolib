@@ -1,0 +1,9 @@
+<map id="proto::exoAtlant::ExoAtlantProtocol_&lt; RX_BASE, TX_BASE &gt;" name="proto::exoAtlant::ExoAtlantProtocol_&lt; RX_BASE, TX_BASE &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="583,68,814,109"/>
+<area shape="rect" id="Node000002" href="$d6/db3/classproto_1_1_protocol_no_sys_endpoint.html" title=" " alt="" coords="256,53,534,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="550,86,583,86,583,91,550,91"/>
+<area shape="rect" id="Node000003" href="$df/dd6/classproto_1_1_rx_container.html" title=" " alt="" coords="5,5,171,76"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="187,53,256,64,255,69,186,59"/>
+<area shape="rect" id="Node000004" href="$da/dd6/classproto_1_1_tx_container.html" title=" " alt="" coords="5,100,171,171"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="186,118,255,107,256,113,187,123"/>
+</map>

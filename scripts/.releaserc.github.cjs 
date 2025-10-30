@@ -1,0 +1,11 @@
+export default {
+  branches: ["main", "develop"],
+  repositoryUrl: "https://github.com/<org>/<repo>.git",
+  plugins: [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    ["@semantic-release/git", { "assets": ["CHANGELOG.md"] }],
+    "@semantic-release/github"
+  ]
+};

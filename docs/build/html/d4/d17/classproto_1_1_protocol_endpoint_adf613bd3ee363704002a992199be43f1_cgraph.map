@@ -1,0 +1,5 @@
+<map id="proto::ProtocolEndpoint::set_interfaces" name="proto::ProtocolEndpoint::set_interfaces">
+<area shape="rect" id="Node000001" title="Wire the endpoint to external RX and TX interfaces." alt="" coords="5,5,163,46"/>
+<area shape="rect" id="Node000002" href="$d6/d35/classproto_1_1interface_1_1_i_interface.html#af0ce962e12381404ec3d77e44ef65e60" title=" " alt="" coords="211,5,382,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,23,195,23,195,28,163,28"/>
+</map>

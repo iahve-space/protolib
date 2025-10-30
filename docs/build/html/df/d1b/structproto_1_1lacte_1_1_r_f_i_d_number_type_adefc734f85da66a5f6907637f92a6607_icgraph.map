@@ -1,0 +1,11 @@
+<map id="proto::lacte::RFIDNumberType::RFIDNumberType" name="proto::lacte::RFIDNumberType::RFIDNumberType">
+<area shape="rect" id="Node000001" title=" " alt="" coords="226,104,398,145"/>
+<area shape="rect" id="Node000002" href="$df/d1b/structproto_1_1lacte_1_1_r_f_i_d_number_type.html#ab9031f5e3636bfd90514b8ea2d4dbb14" title=" " alt="" coords="5,5,178,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,99,177,61,147,49,149,44,179,57,258,94"/>
+<area shape="rect" id="Node000003" href="$df/d1b/structproto_1_1lacte_1_1_r_f_i_d_number_type.html#a0b4f533054c7422b7be9d623a8d2b838" title=" " alt="" coords="5,71,178,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="210,112,178,107,178,101,210,106"/>
+<area shape="rect" id="Node000004" href="$df/d1b/structproto_1_1lacte_1_1_r_f_i_d_number_type.html#a51d4aa760be7bb7af1c1e9df4f3c3e99" title=" " alt="" coords="5,136,178,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="210,142,178,146,178,141,210,136"/>
+<area shape="rect" id="Node000005" href="$df/d1b/structproto_1_1lacte_1_1_r_f_i_d_number_type.html#a4e039624aa22655be5ba494b2f00d1d9" title=" " alt="" coords="5,201,178,242"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="256,155,179,191,149,203,147,198,177,186,254,150"/>
+</map>

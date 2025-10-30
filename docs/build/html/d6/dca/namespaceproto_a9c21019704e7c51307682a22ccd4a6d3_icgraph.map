@@ -1,0 +1,27 @@
+<map id="proto::make_field_info" name="proto::make_field_info">
+<area shape="rect" id="Node000001" title="Helper to create a FieldInfo with type/size deduction." alt="" coords="532,205,681,230"/>
+<area shape="rect" id="Node000002" href="$dd/db1/classproto_1_1lacte_1_1_lacte_board_protocol.html#a1e22ab3e46127991c7b048041c7b7067" title=" " alt="" coords="290,45,450,86"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="584,194,541,147,513,122,483,101,449,86,451,81,485,97,516,118,544,143,588,191"/>
+<area shape="rect" id="Node000003" href="$dd/db1/classproto_1_1lacte_1_1_lacte_board_protocol.html#adb308fed1049363915a9e6ba22fce84a" title=" " alt="" coords="290,111,450,151"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="564,200,483,165,450,154,451,149,485,161,566,195"/>
+<area shape="rect" id="Node000004" href="$d6/dd3/classproto_1_1lacte_1_1_lacte_host_protocol.html#a3222d318f611eae10e718af657624701" title=" " alt="" coords="256,176,484,201"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="517,209,478,204,479,199,517,204"/>
+<area shape="rect" id="Node000011" href="$d6/dd3/classproto_1_1lacte_1_1_lacte_host_protocol.html#a81682b4f39af583935ed81ff1e20e4ff" title=" " alt="" coords="269,225,471,266"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="517,231,472,236,471,231,516,226"/>
+<area shape="rect" id="Node000012" href="$da/dd6/classproto_1_1_tx_container.html#a4636ad0f62ff172c7a74231bc9757985" title=" " alt="" coords="290,290,450,346"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="569,240,485,280,452,293,450,288,483,275,567,235"/>
+<area shape="rect" id="Node000013" href="$d3/d9e/classproto_1_1exo_atlant_1_1_exo_atlant_protocol__.html#ac9dd8408999d03d57dadb02ff647d93a" title="Сериализация исходящего блока данных" alt="" coords="281,369,459,410"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="592,246,548,303,519,334,485,360,461,372,458,368,483,355,515,330,544,300,587,242"/>
+<area shape="rect" id="Node000005" href="$d6/dd3/classproto_1_1lacte_1_1_lacte_host_protocol.html#af956203f98e365e127142084fbcc2e0e" title=" " alt="" coords="5,5,208,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="260,170,254,165,242,152,234,139,228,112,223,86,217,73,206,61,188,49,191,44,209,57,221,70,228,84,234,111,239,137,246,149,257,161,264,165"/>
+<area shape="rect" id="Node000006" href="$d6/dd3/classproto_1_1lacte_1_1_lacte_host_protocol.html#a8c12ff5726f58db9831b13382a0e2456" title=" " alt="" coords="5,71,208,111"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="272,173,254,165,239,156,230,146,206,127,179,114,182,109,209,122,233,142,243,152,257,161,274,168"/>
+<area shape="rect" id="Node000007" href="$d6/dd3/classproto_1_1lacte_1_1_lacte_host_protocol.html#a4a03daefcb8a0ca173c5c1006d55c83f" title=" " alt="" coords="5,136,208,177"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="243,176,208,171,208,166,244,170"/>
+<area shape="rect" id="Node000008" href="$d6/dd3/classproto_1_1lacte_1_1_lacte_host_protocol.html#a5138dda64478785bb9a49d03ecf55805" title=" " alt="" coords="5,201,208,242"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="248,206,208,212,208,206,248,201"/>
+<area shape="rect" id="Node000009" href="$d6/dd3/classproto_1_1lacte_1_1_lacte_host_protocol.html#aebf52854ab0837d9e79a47412a1fb476" title=" " alt="" coords="5,267,208,307"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="273,209,257,216,243,225,233,235,224,245,209,256,182,268,180,264,206,251,220,241,229,231,239,221,254,211,271,204"/>
+<area shape="rect" id="Node000010" href="$d6/dd3/classproto_1_1lacte_1_1_lacte_host_protocol.html#a60104e61b4a82a461c6c25a9c7c6703c" title=" " alt="" coords="5,332,208,373"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="264,211,257,216,246,228,239,240,234,266,228,293,221,307,209,321,192,334,188,329,206,317,217,304,223,292,228,265,234,238,242,225,254,212,260,207"/>
+</map>

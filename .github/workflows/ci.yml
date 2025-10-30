@@ -1,0 +1,291 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+name: CI
+
+on:
+  push:
+    branches: [ "**" ]
+    tags: [ "**" ]
+  pull_request:
+    branches: [ "**" ]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  BUILD_DIR: build
+  ARTIFACTS_DIR: artifacts
+  # Помогает с clang-tidy (ваш скрипт это читает)
+  EXTRA_CMAKE_FLAGS: -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+
+jobs:
+
+  compute_version:
+    name: Prepare / compute version
+    runs-on: ubuntu-latest
+    container:
+      image: docker.io/ilia19911/ilia:latest
+      options: --init --user 0:0
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # нужен semantic-release dry-run для истории и тэгов
+
+
+      - name: Prepare directories
+        run: |
+          mkdir -p "$BUILD_DIR" "$ARTIFACTS_DIR"
+          chmod +x scripts/*.sh || true
+
+      - name: Fix git safe.directory & verify repo
+        run: |
+          git --version
+          echo "GITHUB_WORKSPACE=$GITHUB_WORKSPACE"
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git config --global --add safe.directory /__w/fs-tools/fs-tools || true
+          git rev-parse --is-inside-work-tree
+          git status --porcelain >/dev/null
+
+      - name: Compute version (semantic-release dry-run)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./scripts/compute_version.sh --out "$ARTIFACTS_DIR/version.env"
+
+      - name: Upload version.env
+        uses: actions/upload-artifact@v4
+        with:
+          name: version-env
+          path: ${{ env.ARTIFACTS_DIR }}/version.env
+          if-no-files-found: warn
+
+      - name: Export outputs
+        id: ver
+        shell: bash
+        run: |
+          if [[ -f "$ARTIFACTS_DIR/version.env" ]]; then
+            set -a
+            source "$ARTIFACTS_DIR/version.env"
+            set +a
+            echo "software_version=${SOFTWARE_VERSION:-0.0.0-${GITHUB_REF_NAME}.${GITHUB_SHA::8}}" >> "$GITHUB_OUTPUT"
+          else
+            echo "software_version=0.0.0-${GITHUB_REF_NAME}.${GITHUB_SHA::8}" >> "$GITHUB_OUTPUT"
+          fi
+    outputs:
+      software_version: ${{ steps.ver.outputs.software_version }}
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    container:
+      image: docker.io/ilia19911/ilia:latest
+      options: --init --user 0
+    needs: [ compute_version ]
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prepare directories
+        run: |
+          mkdir -p "$BUILD_DIR" "$ARTIFACTS_DIR"
+          chmod +x scripts/*.sh || true
+
+      - name: Restore build cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ${{ env.BUILD_DIR }}
+            ~/.cache
+            ~/.ccache
+          key: ${{ runner.os }}-build-${{ hashFiles('**/CMakeLists.txt', 'cmake/**', 'scripts/**') }}-${{ github.ref_name }}
+          restore-keys: |
+            ${{ runner.os }}-build-
+
+      - name: Make scripts executable
+        run: chmod +x scripts/*.sh || true
+
+      - name: Build
+        run: scripts/ci.sh --build --build-dir "$BUILD_DIR"
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: build
+          path: |
+            ${{ env.BUILD_DIR }}/
+            ${{ env.BUILD_DIR }}/compile_commands.json
+          if-no-files-found: warn
+
+
+  analysis:
+    name: Clang-Tidy
+    runs-on: ubuntu-latest
+    container:
+      image: docker.io/ilia19911/ilia:latest
+      options: --init --user 0
+    needs: [ build ]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: build
+
+      - name: Prepare directories
+        run: |
+          mkdir -p "$BUILD_DIR" "$ARTIFACTS_DIR"
+          chmod +x scripts/*.sh || true
+
+      - name: Make scripts executable
+        run: chmod +x scripts/*.sh || true
+
+      - name: Run clang-tidy (fail on errors)
+        shell: bash
+        run: |
+          scripts/ci.sh --tidy --build-dir "$BUILD_DIR" 2>&1 | tee "$ARTIFACTS_DIR/clang-tidy.log"
+          # Propagate the exit code of scripts/ci.sh even with tee in the pipeline
+          exit ${PIPESTATUS[0]}
+
+      - name: Upload clang-tidy log
+        uses: actions/upload-artifact@v4
+        with:
+          name: clang-tidy
+          path: ${{ env.ARTIFACTS_DIR }}/clang-tidy.log
+          if-no-files-found: warn
+
+
+  test_coverage:
+    name: Test & Coverage
+    runs-on: ubuntu-latest
+    container:
+      image: docker.io/ilia19911/ilia:latest
+      options: --init --user 0
+    needs: [ build ]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: build
+
+      - name: Prepare directories
+        run: |
+          mkdir -p "$BUILD_DIR" "$ARTIFACTS_DIR"
+          chmod +x scripts/*.sh || true
+
+      - name: Make scripts executable
+        run: chmod +x scripts/*.sh || true
+
+      - name: Run tests & coverage
+        run: scripts/ci.sh --test --coverage --build-dir "$BUILD_DIR"
+
+      - name: Upload test & coverage artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-coverage
+          path: |
+            ${{ env.ARTIFACTS_DIR }}/junit.xml
+            ${{ env.ARTIFACTS_DIR }}/coverage.xml
+            ${{ env.ARTIFACTS_DIR }}/coverage.html
+            ${{ env.ARTIFACTS_DIR }}/coverage.txt
+            ${{ env.ARTIFACTS_DIR }}/coverage.svg
+          if-no-files-found: warn
+
+  #  publish_conan:
+  #    name: Publish (Conan)
+  #    runs-on: ubuntu-latest
+  #    needs: [build, compute_version]
+  #    if: ${{ github.ref_name == 'main' || github.ref_name == 'develop' || github.ref_name == 'testing' }}
+  #    env:
+  #      SOFTWARE_VERSION: ${{ needs.compute_version.outputs.software_version }}
+  #      CONAN_REMOTE_NAME: ${{ vars.CONAN_REMOTE_NAME }}
+  #      CONAN_REMOTE_URL:  ${{ vars.CONAN_REMOTE_URL }}
+  #      # если скрипту нужны логин/пароль — прокинь их из Secrets:
+  #      CONAN_LOGIN_USERNAME: ${{ secrets.CONAN_LOGIN_USERNAME }}
+  #      CONAN_PASSWORD: ${{ secrets.CONAN_PASSWORD }}
+  #    steps:
+  #      - uses: actions/checkout@v4
+  #
+  #      - name: Make scripts executable
+  #        run: chmod +x scripts/*.sh || true
+  #
+  #      - name: Conan publish
+  #        run: |
+  #          scripts/conan_publish.sh \
+  #            --remote-name "${CONAN_REMOTE_NAME}" \
+  #            --remote-url  "${CONAN_REMOTE_URL}" \
+  #            --full-version "${SOFTWARE_VERSION}" | tee "$ARTIFACTS_DIR/conan_publish.log"
+  #
+  #      - name: Upload conan publish log
+  #        uses: actions/upload-artifact@v4
+  #        with:
+  #          name: conan-publish
+  #          path: ${{ env.ARTIFACTS_DIR }}/conan_publish.log
+  #          if-no-files-found: warn
+
+  semantic_release_real:
+    name: Semantic Release
+    runs-on: ubuntu-latest
+    container:
+      image: docker.io/ilia19911/ilia:latest
+      options: --init --user 0
+    needs: [ test_coverage, analysis ]
+
+    if: ${{ github.ref_name == 'main' || github.ref_name == 'develop' || github.ref_name == 'testing' }}
+    permissions:
+      contents: write      # теги/релизы
+      issues: write        # опционально
+      pull-requests: write # опционально
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+
+      - name: Prepare directories
+        run: |
+          mkdir -p "$BUILD_DIR" "$ARTIFACTS_DIR"
+          chmod +x scripts/*.sh || true
+
+      - name: Download test & coverage artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: test-coverage
+          path: ${{ env.ARTIFACTS_DIR }}
+          merge-multiple: true
+
+      - name: Fix git safe.directory & verify repo
+        run: |
+          git --version
+          echo "GITHUB_WORKSPACE=$GITHUB_WORKSPACE"
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git config --global --add safe.directory /__w/fs-tools/fs-tools || true
+          git rev-parse --is-inside-work-tree
+          git status --porcelain >/dev/null
+          cp -f ${{ env.ARTIFACTS_DIR }}/coverage.svg ./badges/coverage.svg
+
+      - name: Install deps
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci --no-audit --prefer-offline
+          else
+            npm i --no-audit --no-fund --prefer-offline
+          fi
+
+      - name: Semantic release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx semantic-release --no-ci
+
+      - name: Upload CHANGELOG & badge
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-assets
+          path: |
+            CHANGELOG.md
+            badges/coverage.svg
+          if-no-files-found: ignore

@@ -1,0 +1,7 @@
+@PACKAGE_INIT@
+
+# Загружаем экспортированные таргеты из install(EXPORT ...)
+include("${CMAKE_CURRENT_LIST_DIR}/protolibTargets.cmake")
+
+# Поддержка COMPONENTS и REQUIRED делается этой функцией
+check_required_components(protolib)

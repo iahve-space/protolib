@@ -1,0 +1,24 @@
+<map id="proto::meta::get_named" name="proto::meta::get_named">
+<area shape="rect" id="Node000001" title=" " alt="" coords="532,254,691,280"/>
+<area shape="poly" id="edge9_Node000001_Node000001" title=" " alt="" coords="654,242,640,235,612,233,586,235,572,240,569,245,576,252,572,256,564,246,569,236,585,230,612,228,642,230,657,237"/>
+<area shape="rect" id="Node000002" href="$d6/dd3/classproto_1_1lacte_1_1_lacte_host_protocol.html#a3222d318f611eae10e718af657624701" title=" " alt="" coords="256,176,484,201"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="569,250,483,215,444,204,445,199,485,210,571,245"/>
+<area shape="rect" id="Node000009" href="$d8/d8f/namespaceproto_1_1meta.html#a2a8ae2e89afda121684319a7f62f7121" title=" " alt="" coords="290,225,450,250"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="516,258,450,250,450,245,517,253"/>
+<area shape="rect" id="Node000010" href="$d3/d9e/classproto_1_1exo_atlant_1_1_exo_atlant_protocol__.html#ab292d3fc1828c447d3e9d654aff5fcda" title="Разбор входящего блока данных" alt="" coords="281,275,459,315"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="517,281,460,287,459,282,516,275"/>
+<area shape="rect" id="Node000011" href="$d5/dd5/classproto_1_1lacte_1_1_virtual_board.html#ac7d2f1bb5331ad701afe7589a718c6ac" title=" " alt="" coords="287,340,452,381"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="573,290,485,329,449,342,447,337,483,325,571,285"/>
+<area shape="rect" id="Node000003" href="$d6/dd3/classproto_1_1lacte_1_1_lacte_host_protocol.html#af956203f98e365e127142084fbcc2e0e" title=" " alt="" coords="5,5,208,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="343,166,283,114,246,86,206,61,179,49,182,44,209,57,249,82,287,110,346,162"/>
+<area shape="rect" id="Node000004" href="$d6/dd3/classproto_1_1lacte_1_1_lacte_host_protocol.html#a8c12ff5726f58db9831b13382a0e2456" title=" " alt="" coords="5,71,208,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="322,172,207,127,172,115,173,109,209,122,324,167"/>
+<area shape="rect" id="Node000005" href="$d6/dd3/classproto_1_1lacte_1_1_lacte_host_protocol.html#a4a03daefcb8a0ca173c5c1006d55c83f" title=" " alt="" coords="5,136,208,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="243,176,208,171,208,166,244,170"/>
+<area shape="rect" id="Node000006" href="$d6/dd3/classproto_1_1lacte_1_1_lacte_host_protocol.html#a5138dda64478785bb9a49d03ecf55805" title=" " alt="" coords="5,201,208,242"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="248,206,208,212,208,206,248,201"/>
+<area shape="rect" id="Node000007" href="$d6/dd3/classproto_1_1lacte_1_1_lacte_host_protocol.html#aebf52854ab0837d9e79a47412a1fb476" title=" " alt="" coords="5,267,208,307"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="270,209,257,215,243,224,233,234,224,245,209,256,182,269,180,264,206,251,220,241,229,231,239,220,254,210,268,204"/>
+<area shape="rect" id="Node000008" href="$d6/dd3/classproto_1_1lacte_1_1_lacte_host_protocol.html#a60104e61b4a82a461c6c25a9c7c6703c" title=" " alt="" coords="5,332,208,373"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="261,211,257,214,246,226,239,239,234,265,228,293,221,307,209,321,192,334,188,329,206,317,217,304,223,291,228,264,234,237,241,223,254,210,258,207"/>
+</map>

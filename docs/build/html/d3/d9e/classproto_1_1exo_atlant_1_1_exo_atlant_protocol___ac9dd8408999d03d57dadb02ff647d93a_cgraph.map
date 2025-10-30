@@ -1,0 +1,7 @@
+<map id="proto::exoAtlant::ExoAtlantProtocol_::serialize" name="proto::exoAtlant::ExoAtlantProtocol_::serialize">
+<area shape="rect" id="Node000001" title="Сериализация исходящего блока данных" alt="" coords="5,38,184,78"/>
+<area shape="rect" id="Node000002" href="$d6/dca/namespaceproto.html#a9c21019704e7c51307682a22ccd4a6d3" title="Helper to create a FieldInfo with type/size deduction." alt="" coords="278,5,427,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,42,262,29,263,35,184,47"/>
+<area shape="rect" id="Node000003" href="$d6/db3/classproto_1_1_protocol_no_sys_endpoint.html#a0edc938ab2c7d12ca9defdf25ab767b8" title=" " alt="" coords="232,55,473,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,69,217,74,216,80,184,75"/>
+</map>

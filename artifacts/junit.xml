@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Darwin-c++"
+	tests="30"
+	failures="0"
+	disabled="0"
+	skipped="1"
+	hostname="MacBook-Pro-Ilya.local"
+	time="0"
+	timestamp="2025-10-29T19:46:54"
+	>
+	<testcase name="VidPidHelper.FakeSysTree_ForwardAndReverse" classname="VidPidHelper.FakeSysTree_ForwardAndReverse" time="0.0100154" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VidPidHelper.FakeSysTree_ForwardAndReverse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VidPidHelper
+[ RUN      ] VidPidHelper.FakeSysTree_ForwardAndReverse
+[       OK ] VidPidHelper.FakeSysTree_ForwardAndReverse (2 ms)
+[----------] 1 test from VidPidHelper (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="VidPidHelper.RealSystem_Enumerate_And_ReverseIfAvailable" classname="VidPidHelper.RealSystem_Enumerate_And_ReverseIfAvailable" time="0.00594508" status="notrun">
+		<skipped message="SKIP_REGULAR_EXPRESSION_MATCHED"/>
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VidPidHelper.RealSystem_Enumerate_And_ReverseIfAvailable
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VidPidHelper
+[ RUN      ] VidPidHelper.RealSystem_Enumerate_And_ReverseIfAvailable
+/Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/fs_tools-src/tests/TS_vidpid.cpp:99: Skipped
+No class devices with DEVNAME found under /sys/class/* (tty/hidraw/video/sound/block/usblp/drm).
+
+[  SKIPPED ] VidPidHelper.RealSystem_Enumerate_And_ReverseIfAvailable (0 ms)
+[----------] 1 test from VidPidHelper (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 1 test, listed below:
+[  SKIPPED ] VidPidHelper.RealSystem_Enumerate_And_ReverseIfAvailable
+</system-out>
+	</testcase>
+	<testcase name="FieldsTestSuite.OffsetsAndPointers" classname="FieldsTestSuite.OffsetsAndPointers" time="0.00572417" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FieldsTestSuite.OffsetsAndPointers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FieldsTestSuite
+[ RUN      ] FieldsTestSuite.OffsetsAndPointers
+[       OK ] FieldsTestSuite.OffsetsAndPointers (0 ms)
+[----------] 1 test from FieldsTestSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="FieldsTestSuite.SizesSimpleAndComplex" classname="FieldsTestSuite.SizesSimpleAndComplex" time="0.00558733" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FieldsTestSuite.SizesSimpleAndComplex
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FieldsTestSuite
+[ RUN      ] FieldsTestSuite.SizesSimpleAndComplex
+[       OK ] FieldsTestSuite.SizesSimpleAndComplex (0 ms)
+[----------] 1 test from FieldsTestSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="FieldsTestSuite.ConstValuePresentAndApply" classname="FieldsTestSuite.ConstValuePresentAndApply" time="0.00531304" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FieldsTestSuite.ConstValuePresentAndApply
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FieldsTestSuite
+[ RUN      ] FieldsTestSuite.ConstValuePresentAndApply
+[       OK ] FieldsTestSuite.ConstValuePresentAndApply (0 ms)
+[----------] 1 test from FieldsTestSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="FieldsTestSuite.SetValuesAndIterators" classname="FieldsTestSuite.SetValuesAndIterators" time="0.00512158" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FieldsTestSuite.SetValuesAndIterators
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FieldsTestSuite
+[ RUN      ] FieldsTestSuite.SetValuesAndIterators
+[       OK ] FieldsTestSuite.SetValuesAndIterators (0 ms)
+[----------] 1 test from FieldsTestSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="FieldsTestSuite.DataField_VariantAndLookups" classname="FieldsTestSuite.DataField_VariantAndLookups" time="0.0050675" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FieldsTestSuite.DataField_VariantAndLookups
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FieldsTestSuite
+[ RUN      ] FieldsTestSuite.DataField_VariantAndLookups
+[       OK ] FieldsTestSuite.DataField_VariantAndLookups (0 ms)
+[----------] 1 test from FieldsTestSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="FieldsTestSuite.DataField_EnumIdsWork" classname="FieldsTestSuite.DataField_EnumIdsWork" time="0.00460292" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FieldsTestSuite.DataField_EnumIdsWork
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FieldsTestSuite
+[ RUN      ] FieldsTestSuite.DataField_EnumIdsWork
+[       OK ] FieldsTestSuite.DataField_EnumIdsWork (0 ms)
+[----------] 1 test from FieldsTestSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="FieldsTestSuite.SizesComplex_TemplateSizes" classname="FieldsTestSuite.SizesComplex_TemplateSizes" time="0.00416588" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FieldsTestSuite.SizesComplex_TemplateSizes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FieldsTestSuite
+[ RUN      ] FieldsTestSuite.SizesComplex_TemplateSizes
+[       OK ] FieldsTestSuite.SizesComplex_TemplateSizes (0 ms)
+[----------] 1 test from FieldsTestSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="ContainerSuite.IndexingByNumber" classname="ContainerSuite.IndexingByNumber" time="0.006837" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ContainerSuite.IndexingByNumber
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ContainerSuite
+[ RUN      ] ContainerSuite.IndexingByNumber
+[       OK ] ContainerSuite.IndexingByNumber (0 ms)
+[----------] 1 test from ContainerSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="ContainerSuite.IndexingByName" classname="ContainerSuite.IndexingByName" time="0.00651496" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ContainerSuite.IndexingByName
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ContainerSuite
+[ RUN      ] ContainerSuite.IndexingByName
+[       OK ] ContainerSuite.IndexingByName (0 ms)
+[----------] 1 test from ContainerSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="ContainerSuite.NameAndIndexAccessAreSameObjects" classname="ContainerSuite.NameAndIndexAccessAreSameObjects" time="0.00827913" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ContainerSuite.NameAndIndexAccessAreSameObjects
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ContainerSuite
+[ RUN      ] ContainerSuite.NameAndIndexAccessAreSameObjects
+[       OK ] ContainerSuite.NameAndIndexAccessAreSameObjects (0 ms)
+[----------] 1 test from ContainerSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="ContainerSuite.ForEachTypeOrderAndNames" classname="ContainerSuite.ForEachTypeOrderAndNames" time="0.00799813" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ContainerSuite.ForEachTypeOrderAndNames
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ContainerSuite
+[ RUN      ] ContainerSuite.ForEachTypeOrderAndNames
+[       OK ] ContainerSuite.ForEachTypeOrderAndNames (0 ms)
+[----------] 1 test from ContainerSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="ContainerSuite.DataTypesOfGetData" classname="ContainerSuite.DataTypesOfGetData" time="0.00744121" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ContainerSuite.DataTypesOfGetData
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ContainerSuite
+[ RUN      ] ContainerSuite.DataTypesOfGetData
+[       OK ] ContainerSuite.DataTypesOfGetData (0 ms)
+[----------] 1 test from ContainerSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="RxContainerSuite.Matchers_AreBound" classname="RxContainerSuite.Matchers_AreBound" time="0.00583737" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RxContainerSuite.Matchers_AreBound
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RxContainerSuite
+[ RUN      ] RxContainerSuite.Matchers_AreBound
+[       OK ] RxContainerSuite.Matchers_AreBound (0 ms)
+[----------] 1 test from RxContainerSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="RxContainerSuite.Reset_OffsetsGoToZero_ThenRebuiltOnFill" classname="RxContainerSuite.Reset_OffsetsGoToZero_ThenRebuiltOnFill" time="0.00834642" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RxContainerSuite.Reset_OffsetsGoToZero_ThenRebuiltOnFill
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RxContainerSuite
+[ RUN      ] RxContainerSuite.Reset_OffsetsGoToZero_ThenRebuiltOnFill
+[       OK ] RxContainerSuite.Reset_OffsetsGoToZero_ThenRebuiltOnFill (0 ms)
+[----------] 1 test from RxContainerSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="RxContainerSuite.Fill_OffsetsProgressOnSameBuffer" classname="RxContainerSuite.Fill_OffsetsProgressOnSameBuffer" time="0.00805563" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RxContainerSuite.Fill_OffsetsProgressOnSameBuffer
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RxContainerSuite
+[ RUN      ] RxContainerSuite.Fill_OffsetsProgressOnSameBuffer
+[       OK ] RxContainerSuite.Fill_OffsetsProgressOnSameBuffer (0 ms)
+[----------] 1 test from RxContainerSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="RxContainerSuite.Debug_MismatchPathsAreCovered" classname="RxContainerSuite.Debug_MismatchPathsAreCovered" time="0.00841362" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RxContainerSuite.Debug_MismatchPathsAreCovered
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RxContainerSuite
+[ RUN      ] RxContainerSuite.Debug_MismatchPathsAreCovered
+ 
+
+ Packet is received!!
+
+
+------------------------------------------------------------------------------------------
+| FieldName       | Value (Hex)              | Size   | Offset | Is in len  | Is in crc  |
+| ID_FIELD        | AA BB CC                 | 3      | 0      | FALSE      | FALSE      |
+| ConstValue      | AA BB CC                 |
+------------------------------------------------------------------------------------------
+| FieldName       | Value (Hex)              | Size   | Offset | Is in len  | Is in crc  |
+| LEN_FIELD       | 17                       | 1      | 3      | TRUE       | TRUE       |
+-...
+[This part of the test output was removed since it exceeds the threshold of 1024 bytes.]
+</system-out>
+	</testcase>
+	<testcase name="RxContainerSuite.Debug_MismatchPathsCovered_ComplexLayout" classname="RxContainerSuite.Debug_MismatchPathsCovered_ComplexLayout" time="0.00766425" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RxContainerSuite.Debug_MismatchPathsCovered_ComplexLayout
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RxContainerSuite
+[ RUN      ] RxContainerSuite.Debug_MismatchPathsCovered_ComplexLayout
+ 
+
+ Packet is received!!
+
+
+------------------------------------------------------------------------------------------
+| FieldName       | Value (Hex)              | Size   | Offset | Is in len  | Is in crc  |
+| ID_FIELD        | AA BB CC                 | 3      | 0      | FALSE      | FALSE      |
+| ConstValue      | AA BB CC                 |
+------------------------------------------------------------------------------------------
+| FieldName       | Value (Hex)              | Size   | Offset | Is in len  | Is in crc  |
+| LEN_FIELD       | 06                       | 1      | 3      | TRUE ...
+[This part of the test output was removed since it exceeds the threshold of 1024 bytes.]
+</system-out>
+	</testcase>
+	<testcase name="RxContainerSuite.Complex_CRCReverse_ByteSwapBreaksPacket" classname="RxContainerSuite.Complex_CRCReverse_ByteSwapBreaksPacket" time="0.00799567" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RxContainerSuite.Complex_CRCReverse_ByteSwapBreaksPacket
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RxContainerSuite
+[ RUN      ] RxContainerSuite.Complex_CRCReverse_ByteSwapBreaksPacket
+ 
+
+ Packet is received!!
+
+
+------------------------------------------------------------------------------------------
+| FieldName       | Value (Hex)              | Size   | Offset | Is in len  | Is in crc  |
+| ID_FIELD        | AA BB CC                 | 3      | 0      | FALSE      | FALSE      |
+| ConstValue      | AA BB CC                 |
+------------------------------------------------------------------------------------------
+| FieldName       | Value (Hex)              | Size   | Offset | Is in len  | Is in crc  |
+| LEN_FIELD       | 06                       | 1      | 3      | TRUE   ...
+[This part of the test output was removed since it exceeds the threshold of 1024 bytes.]
+</system-out>
+	</testcase>
+	<testcase name="TxContainerSuite.Send_SimplePacket" classname="TxContainerSuite.Send_SimplePacket" time="0.00703308" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TxContainerSuite.Send_SimplePacket
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TxContainerSuite
+[ RUN      ] TxContainerSuite.Send_SimplePacket
+[       OK ] TxContainerSuite.Send_SimplePacket (0 ms)
+[----------] 1 test from TxContainerSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="TxContainerSuite.Send_ComplexPacket_TypeAndData" classname="TxContainerSuite.Send_ComplexPacket_TypeAndData" time="0.00739862" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TxContainerSuite.Send_ComplexPacket_TypeAndData
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TxContainerSuite
+[ RUN      ] TxContainerSuite.Send_ComplexPacket_TypeAndData
+[       OK ] TxContainerSuite.Send_ComplexPacket_TypeAndData (0 ms)
+[----------] 1 test from TxContainerSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="TxContainerSuite.Complex_FrameIsContiguousFromIdBase" classname="TxContainerSuite.Complex_FrameIsContiguousFromIdBase" time="0.00692075" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TxContainerSuite.Complex_FrameIsContiguousFromIdBase
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TxContainerSuite
+[ RUN      ] TxContainerSuite.Complex_FrameIsContiguousFromIdBase
+[       OK ] TxContainerSuite.Complex_FrameIsContiguousFromIdBase (0 ms)
+[----------] 1 test from TxContainerSuite (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="PingPongContainerTest.SanyCaseType1" classname="PingPongContainerTest.SanyCaseType1" time="0.00549412" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PingPongContainerTest.SanyCaseType1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PingPongContainerTest
+[ RUN      ] PingPongContainerTest.SanyCaseType1
+[       OK ] PingPongContainerTest.SanyCaseType1 (0 ms)
+[----------] 1 test from PingPongContainerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="PingPongContainerTest.NoiseType1" classname="PingPongContainerTest.NoiseType1" time="0.00572054" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PingPongContainerTest.NoiseType1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PingPongContainerTest
+[ RUN      ] PingPongContainerTest.NoiseType1
+[       OK ] PingPongContainerTest.NoiseType1 (0 ms)
+[----------] 1 test from PingPongContainerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="PingPongContainerTest.SanyCaseType2" classname="PingPongContainerTest.SanyCaseType2" time="0.00503321" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PingPongContainerTest.SanyCaseType2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PingPongContainerTest
+[ RUN      ] PingPongContainerTest.SanyCaseType2
+[       OK ] PingPongContainerTest.SanyCaseType2 (0 ms)
+[----------] 1 test from PingPongContainerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="PingPongContainerTest.NoiseType2" classname="PingPongContainerTest.NoiseType2" time="0.00446046" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PingPongContainerTest.NoiseType2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PingPongContainerTest
+[ RUN      ] PingPongContainerTest.NoiseType2
+[       OK ] PingPongContainerTest.NoiseType2 (0 ms)
+[----------] 1 test from PingPongContainerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="PingPongContainerTest.DebugOutput_Type2_CrcMismatch" classname="PingPongContainerTest.DebugOutput_Type2_CrcMismatch" time="0.00378617" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PingPongContainerTest.DebugOutput_Type2_CrcMismatch
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PingPongContainerTest
+[ RUN      ] PingPongContainerTest.DebugOutput_Type2_CrcMismatch
+[       OK ] PingPongContainerTest.DebugOutput_Type2_CrcMismatch (0 ms)
+[----------] 1 test from PingPongContainerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="LacteProtocolTest.Main" classname="LacteProtocolTest.Main" time="0.00484533" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = LacteProtocolTest.Main
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LacteProtocolTest
+[ RUN      ] LacteProtocolTest.Main
+ 
+
+ Packet is received!!
+
+
+------------------------------------------------------------------------------------------
+| FieldName       | Value (Hex)              | Size   | Offset | Is in len  | Is in crc  |
+| ID_FIELD        | FF AA                    | 2      | 0      | FALSE      | FALSE      |
+| ConstValue      | FF AA                    |
+------------------------------------------------------------------------------------------
+| FieldName       | Value (Hex)              | Size   | Offset | Is in len  | Is in crc  |
+| LEN_FIELD       | 0D                       | 1      | 2      | FALSE      | TRUE       |
+------------------------------------------------...
+[This part of the test output was removed since it exceeds the threshold of 1024 bytes.]
+</system-out>
+	</testcase>
+	<testcase name="exoatlantProtocolTest.Main" classname="exoatlantProtocolTest.Main" time="0.00308017" status="run">
+		<properties/>
+		<system-out>Running main() from /Users/ilyaostanin/Nextcloud/Projects/iahve-space/protolib/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = exoatlantProtocolTest.Main
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from exoatlantProtocolTest
+[ RUN      ] exoatlantProtocolTest.Main
+
+[serialize] took 11 us (0.011 ms)
+
+[deserialize] took 87 us (0.087 ms)
+[       OK ] exoatlantProtocolTest.Main (0 ms)
+[----------] 1 test from exoatlantProtocolTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+</testsuite>

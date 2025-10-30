@@ -1,0 +1,5 @@
+<map id="proto::for_each_info" name="proto::for_each_info">
+<area shape="rect" id="Node000001" title="Apply a callable to each element of a tuple." alt="" coords="5,5,142,31"/>
+<area shape="rect" id="Node000002" href="$d6/dca/namespaceproto.html#a7d047eb555b6247afb7380849cca58f4" title="Implementation detail for ForEachInfo: fold over tuple indices." alt="" coords="190,5,329,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,16,174,16,174,21,142,21"/>
+</map>

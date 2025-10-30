@@ -1,0 +1,5 @@
+<map id="proto::ProtocolEndpoint::ProtocolEndpoint" name="proto::ProtocolEndpoint::ProtocolEndpoint">
+<area shape="rect" id="Node000001" title="Construct endpoint and install a permanent RX callback that snapshots the last frame&#39;s type code." alt="" coords="5,5,163,46"/>
+<area shape="rect" id="Node000002" href="$d4/d17/classproto_1_1_protocol_endpoint.html#ac9f00178274a409fceacb8e6379d391f" title=" " alt="" coords="211,5,368,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,23,195,23,195,28,163,28"/>
+</map>

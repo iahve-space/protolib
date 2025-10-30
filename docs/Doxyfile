@@ -1,0 +1,48 @@
+# Project info
+PROJECT_NAME           = "protolib"
+PROJECT_BRIEF          = "C++17 library for binary protocol serialization and parsing"
+# PROJECT_LOGO           = docs/images/logo.png
+OUTPUT_DIRECTORY       = public
+CREATE_SUBDIRS         = YES
+
+# Inputs
+INPUT                  = include protocols docs docs/reference
+IMAGE_PATH            = badges docs/images
+FILE_PATTERNS          = *.h *.hpp *.md
+RECURSIVE              = YES
+EXCLUDE_PATTERNS       = */tests/*
+
+# Output
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+USE_MDFILE_AS_MAINPAGE = docs/mainpage.md
+HTML_OUTPUT            = .
+# HTML_EXTRA_STYLESHEET  = docs/doxygen-awesome.css
+
+# Language
+OPTIMIZE_OUTPUT_FOR_C  = NO
+OPTIMIZE_OUTPUT_FOR_CPLUSPLUS = YES
+JAVADOC_AUTOBRIEF      = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+HIDE_UNDOC_MEMBERS     = YES
+HIDE_UNDOC_CLASSES     = YES
+
+# Graphs
+HAVE_DOT               = YES
+DOT_IMAGE_FORMAT       = svg
+INTERACTIVE_SVG        = YES
+CLASS_GRAPH            = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+DOT_NUM_THREADS        = 4
+
+# Navigation
+GENERATE_TREEVIEW      = YES
+FULL_PATH_NAMES        = NO
+INLINE_SOURCES         = NO
+SOURCE_BROWSER         = YES
+
+# Warnings
+WARN_IF_UNDOCUMENTED   = YES
+QUIET                  = NO

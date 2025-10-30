@@ -1,0 +1,5 @@
+<map id="proto::interface::IInterface::add_receive_callback" name="proto::interface::IInterface::add_receive_callback">
+<area shape="rect" id="Node000001" title=" " alt="" coords="211,5,382,46"/>
+<area shape="rect" id="Node000002" href="$d4/d17/classproto_1_1_protocol_endpoint.html#adf613bd3ee363704002a992199be43f1" title="Wire the endpoint to external RX and TX interfaces." alt="" coords="5,5,163,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,28,163,28,163,23,195,23"/>
+</map>

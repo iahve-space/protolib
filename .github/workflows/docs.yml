@@ -1,0 +1,90 @@
+name: Docs
+
+on:
+  # Запускать только после успешного завершения CI
+  workflow_run:
+    workflows: ["CI"]      # ← ДОЛЖНО совпадать с name: в твоём CI workflow
+    types: [completed]
+
+  # Опционально: ручной запуск
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  DOXYFILE: docs/Doxyfile
+  OUTPUT_DIR: public
+
+jobs:
+  build-and-publish:
+    name: Build & Publish Doxygen
+    # Только если CI завершился успехом и ветка — main
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main' }}
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker.io/ilia19911/ilia:latest
+
+    steps:
+      - name: Checkout (same commit as CI)
+        uses: actions/checkout@v4
+        with:
+          # Берём тот же SHA, который собрал CI
+          ref: ${{ github.event.workflow_run.head_sha }}
+          fetch-depth: 0
+
+      - name: Whoami & perms
+        shell: bash
+        run: |
+          id
+          echo "Workspace: $GITHUB_WORKSPACE"
+          ls -la "$GITHUB_WORKSPACE" || true
+          ls -la /__w || true
+
+      - name: Show versions
+        shell: bash
+        run: |
+          set -euo pipefail
+          cmake --version || true
+          doxygen -v || true
+          conan --version || true
+          clang-tidy --version || true
+
+      - name: Build docs with Doxygen
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ ! -f "${DOXYFILE}" ]; then
+            echo "::error title=Doxyfile not found::Expected ${DOXYFILE}"
+            exit 2
+          fi
+          doxygen "${DOXYFILE}"
+          if [ ! -d "${OUTPUT_DIR}" ]; then
+            echo "::error title=No output::${OUTPUT_DIR} was not produced by Doxygen"
+            ls -la
+            exit 3
+          fi
+          echo "Produced $(find "${OUTPUT_DIR}" -type f | wc -l) files"
+
+      - name: Upload built site (artifact)
+        uses: actions/upload-artifact@v4
+        with:
+          name: docs-site
+          path: ${{ env.OUTPUT_DIR }}
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ${{ env.OUTPUT_DIR }}
+          publish_branch: gh-pages
+          commit_message: "docs: update from ${{ github.event.workflow_run.head_sha }}"
+          user_name: "github-actions[bot]"
+          user_email: "41898282+github-actions[bot]@users.noreply.github.com"

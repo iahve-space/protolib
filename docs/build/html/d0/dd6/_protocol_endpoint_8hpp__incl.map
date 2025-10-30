@@ -1,0 +1,85 @@
+<map id="ProtocolEndpoint.hpp" name="ProtocolEndpoint.hpp">
+<area shape="rect" id="Node000001" title="Base endpoint class for protocol implementations." alt="" coords="450,5,595,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="43,86,103,112"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="449,28,298,47,210,62,123,82,116,83,115,78,122,76,209,57,297,41,449,23"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,264,66,290"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="450,33,371,51,290,81,220,122,154,170,100,217,59,255,56,251,96,213,151,166,217,118,288,77,370,46,449,28"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="669,86,794,112"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="555,29,686,78,684,83,553,34"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="818,86,874,112"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="596,27,697,47,807,76,810,78,808,83,805,82,696,52,595,33"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="90,264,168,290"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="486,34,431,55,361,84,288,123,219,170,177,211,147,252,142,249,173,207,215,166,285,118,359,80,429,50,484,29"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="269,264,338,290"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="514,33,325,254,321,251,510,30"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="899,86,956,112"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="596,23,732,41,810,56,887,76,891,78,889,83,885,82,809,62,731,47,595,28"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="980,86,1038,112"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="595,20,768,36,870,52,970,76,974,78,972,83,968,82,868,57,767,41,595,25"/>
+<area shape="rect" id="Node000010" href="$d0/d95/_rx_container_8hpp.html" title="Stateful frame parsing container that incrementally matches and fills protocol fields from a byte str..." alt="" coords="452,168,592,208"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="517,32,506,54,497,80,494,99,497,119,508,153,503,154,492,120,489,99,492,78,501,52,512,30"/>
+<area shape="rect" id="Node000018" href="$d7/d5d/_tx_container_8hpp.html" title="TX&#45;side container that builds protocol frames from a set of fields." alt="" coords="506,79,645,120"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="532,30,556,64,552,67,528,33"/>
+<area shape="poly" id="edge12_Node000010_Node000006" title=" " alt="" coords="453,202,325,225,180,259,174,261,172,256,179,254,324,220,452,197"/>
+<area shape="poly" id="edge13_Node000010_Node000007" title=" " alt="" coords="472,211,351,259,348,260,346,255,349,254,470,206"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="722,264,797,290"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="579,206,711,254,716,256,714,261,709,259,577,211"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="480,345,540,371"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="523,209,515,330,509,329,518,208"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="820,264,870,290"/>
+<area shape="poly" id="edge14_Node000010_Node000013" title=" " alt="" coords="593,198,696,220,810,254,812,255,810,260,808,259,695,225,591,203"/>
+<area shape="rect" id="Node000014" href="$de/ddc/_custom_span_8hpp.html" title=" " alt="" coords="362,264,485,290"/>
+<area shape="poly" id="edge15_Node000010_Node000014" title=" " alt="" coords="502,211,450,256,447,252,498,207"/>
+<area shape="rect" id="Node000017" href="$d8/dd8/_field_container_8hpp.html" title=" " alt="" coords="559,256,698,297"/>
+<area shape="poly" id="edge18_Node000010_Node000017" title=" " alt="" coords="548,207,595,244,591,249,545,211"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="303,345,368,371"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="412,292,362,336,359,332,408,288"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="391,345,456,371"/>
+<area shape="poly" id="edge17_Node000014_Node000016" title=" " alt="" coords="426,290,426,329,421,329,421,290"/>
+<area shape="poly" id="edge20_Node000018_Node000011" title=" " alt="" coords="598,118,738,251,734,255,594,122"/>
+<area shape="poly" id="edge21_Node000018_Node000013" title=" " alt="" coords="610,118,688,165,817,253,814,257,685,170,607,122"/>
+<area shape="poly" id="edge23_Node000018_Node000014" title=" " alt="" coords="508,123,472,142,443,169,433,188,427,208,424,248,419,248,422,207,428,186,439,166,469,137,506,118"/>
+<area shape="poly" id="edge30_Node000018_Node000017" title=" " alt="" coords="587,119,606,167,625,240,620,242,601,168,582,121"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="1326,345,1409,371"/>
+<area shape="poly" id="edge22_Node000018_Node000019" title=" " alt="" coords="646,115,657,117,726,126,785,130,887,130,936,131,988,135,1045,146,1112,165,1150,180,1186,199,1253,245,1309,292,1348,331,1345,335,1305,296,1250,249,1184,204,1148,185,1111,170,1044,151,987,141,936,136,887,135,785,135,726,131,656,122,645,120"/>
+<area shape="rect" id="Node000020" href="$dc/dba/_interface_8hpp.html" title=" " alt="" coords="230,175,327,201"/>
+<area shape="poly" id="edge24_Node000018_Node000020" title=" " alt="" coords="508,123,335,173,334,168,507,118"/>
+<area shape="rect" id="Node000022" href="$d0/d22/_field_info_8hpp.html" title="Helpers and utilities for compile&#45;time field metadata and tuple processing." alt="" coords="910,175,1100,201"/>
+<area shape="poly" id="edge31_Node000018_Node000022" title=" " alt="" coords="646,115,657,117,923,169,922,174,656,122,645,120"/>
+<area shape="poly" id="edge25_Node000020_Node000003" title=" " alt="" coords="239,204,79,259,77,260,75,255,77,254,237,199"/>
+<area shape="poly" id="edge26_Node000020_Node000006" title=" " alt="" coords="259,204,164,258,162,253,256,199"/>
+<area shape="poly" id="edge27_Node000020_Node000007" title=" " alt="" coords="284,201,298,248,293,250,279,202"/>
+<area shape="poly" id="edge29_Node000020_Node000014" title=" " alt="" coords="300,199,391,253,389,258,297,204"/>
+<area shape="rect" id="Node000021" title=" " alt="" coords="192,264,245,290"/>
+<area shape="poly" id="edge28_Node000020_Node000021" title=" " alt="" coords="272,203,237,253,233,250,268,200"/>
+<area shape="poly" id="edge32_Node000022_Node000013" title=" " alt="" coords="984,204,882,258,879,254,981,199"/>
+<area shape="poly" id="edge33_Node000022_Node000019" title=" " alt="" coords="1052,199,1125,222,1206,254,1280,294,1340,334,1337,338,1277,299,1204,259,1123,227,1050,204"/>
+<area shape="rect" id="Node000023" title=" " alt="" coords="1140,264,1192,290"/>
+<area shape="poly" id="edge34_Node000022_Node000023" title=" " alt="" coords="1029,199,1131,254,1129,258,1026,204"/>
+<area shape="rect" id="Node000024" href="$d3/d6e/_field_prototype_8hpp.html" title="FieldPrototype template for describing and handling protocol fields." alt="" coords="893,264,1116,290"/>
+<area shape="poly" id="edge35_Node000022_Node000024" title=" " alt="" coords="1008,201,1008,248,1002,248,1002,201"/>
+<area shape="poly" id="edge37_Node000024_Node000012" title=" " alt="" coords="927,293,883,300,720,320,648,330,556,347,555,342,647,325,720,315,882,294,927,288"/>
+<area shape="poly" id="edge43_Node000024_Node000019" title=" " alt="" coords="1061,287,1312,342,1310,347,1060,293"/>
+<area shape="rect" id="Node000025" title=" " alt="" coords="628,419,688,444"/>
+<area shape="poly" id="edge36_Node000024_Node000025" title=" " alt="" coords="930,293,813,317,761,332,725,347,695,375,673,406,669,403,691,372,722,343,759,327,811,312,928,288"/>
+<area shape="rect" id="Node000026" title=" " alt="" coords="972,345,1038,371"/>
+<area shape="poly" id="edge38_Node000024_Node000026" title=" " alt="" coords="1008,290,1008,329,1002,329,1002,290"/>
+<area shape="rect" id="Node000027" title=" " alt="" coords="1062,345,1134,371"/>
+<area shape="poly" id="edge39_Node000024_Node000027" title=" " alt="" coords="1021,288,1074,333,1071,337,1017,292"/>
+<area shape="rect" id="Node000028" title=" " alt="" coords="1157,345,1210,371"/>
+<area shape="poly" id="edge40_Node000024_Node000028" title=" " alt="" coords="1033,288,1144,336,1142,341,1031,293"/>
+<area shape="rect" id="Node000029" title=" " alt="" coords="1233,345,1302,371"/>
+<area shape="poly" id="edge41_Node000024_Node000029" title=" " alt="" coords="1046,288,1219,339,1218,344,1045,293"/>
+<area shape="rect" id="Node000030" title=" " alt="" coords="712,419,799,444"/>
+<area shape="poly" id="edge42_Node000024_Node000030" title=" " alt="" coords="939,293,814,320,763,334,737,347,732,360,732,374,742,404,737,406,726,375,727,359,734,343,761,329,813,314,938,288"/>
+<area shape="rect" id="Node000031" title=" " alt="" coords="564,345,622,371"/>
+<area shape="poly" id="edge44_Node000024_Node000031" title=" " alt="" coords="933,293,641,348,637,349,636,343,640,342,932,288"/>
+<area shape="rect" id="Node000032" href="$d8/d46/_field_flags_8hpp.html" title="Common enums and utilities for protocol field names and flags." alt="" coords="748,345,947,371"/>
+<area shape="poly" id="edge45_Node000024_Node000032" title=" " alt="" coords="982,292,886,340,884,335,979,288"/>
+<area shape="poly" id="edge47_Node000032_Node000025" title=" " alt="" coords="816,374,703,416,702,411,814,369"/>
+<area shape="poly" id="edge49_Node000032_Node000030" title=" " alt="" coords="834,373,784,411,781,407,830,369"/>
+<area shape="rect" id="Node000033" title=" " alt="" coords="824,419,874,444"/>
+<area shape="poly" id="edge46_Node000032_Node000033" title=" " alt="" coords="850,371,851,403,846,403,845,371"/>
+<area shape="rect" id="Node000034" title=" " alt="" coords="899,419,967,444"/>
+<area shape="poly" id="edge48_Node000032_Node000034" title=" " alt="" coords="864,369,909,407,905,411,860,373"/>
+</map>

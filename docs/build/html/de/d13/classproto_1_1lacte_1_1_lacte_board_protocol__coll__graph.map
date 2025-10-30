@@ -1,0 +1,9 @@
+<map id="proto::lacte::LacteBoardProtocol&lt; RX_BASE, TX_BASE &gt;" name="proto::lacte::LacteBoardProtocol&lt; RX_BASE, TX_BASE &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="560,45,729,101"/>
+<area shape="rect" id="Node000002" href="$d4/d17/classproto_1_1_protocol_endpoint.html" title=" " alt="" coords="310,30,511,116"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="527,70,560,70,560,76,527,76"/>
+<area shape="rect" id="Node000003" href="$df/dd6/classproto_1_1_rx_container.html" title=" " alt="" coords="5,5,225,61"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="241,47,309,57,309,62,240,53"/>
+<area shape="rect" id="Node000004" href="$da/dd6/classproto_1_1_tx_container.html" title=" " alt="" coords="5,85,225,141"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="240,94,309,84,309,89,241,99"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="RxContainer.hpp" name="RxContainer.hpp">
+<area shape="rect" id="Node000001" title="Stateful frame parsing container that incrementally matches and fills protocol fields from a byte str..." alt="" coords="168,5,286,31"/>
+<area shape="rect" id="Node000002" href="$dd/d7f/_protocol_endpoint_8hpp.html" title="Base endpoint class for protocol implementations." alt="" coords="60,79,205,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,43,150,81,147,77,197,39"/>
+<area shape="rect" id="Node000006" href="$dc/d1e/_protocol_no_sys_endpoint_8hpp.html" title=" " alt="" coords="229,79,414,105"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="257,39,308,77,304,81,254,43"/>
+<area shape="rect" id="Node000003" href="$dc/d95/_lacte_protocol_8hpp.html" title=" " alt="" coords="5,226,132,252"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="80,113,53,130,32,154,28,172,34,191,58,224,54,227,29,194,23,172,27,151,50,126,78,109"/>
+<area shape="rect" id="Node000005" href="$d8/df0/_lacte_protocol_prototype_8hpp.html" title=" " alt="" coords="41,153,224,178"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="135,120,135,152,130,152,130,120"/>
+<area shape="rect" id="Node000004" href="$db/dc5/_virtual_board_8hpp.html" title=" " alt="" coords="10,300,127,326"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="71,267,71,300,66,300,66,267"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="114,191,81,228,77,224,110,188"/>
+<area shape="rect" id="Node000007" href="$d5/d46/exo_atlant_protocol_8hpp.html" title=" " alt="" coords="247,153,396,178"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="324,120,324,152,319,152,319,120"/>
+</map>

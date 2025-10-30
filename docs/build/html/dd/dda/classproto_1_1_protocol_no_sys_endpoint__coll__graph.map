@@ -1,0 +1,7 @@
+<map id="proto::ProtocolNoSysEndpoint&lt; RxFields, TxFields, Crc &gt;" name="proto::ProtocolNoSysEndpoint&lt; RxFields, TxFields, Crc &gt;">
+<area shape="rect" id="Node000001" title="Protocol endpoint base for protocol implementations." alt="" coords="68,117,266,158"/>
+<area shape="rect" id="Node000002" href="$df/dd6/classproto_1_1_rx_container.html" title=" " alt="" coords="5,5,156,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,56,154,115,150,118,103,60"/>
+<area shape="rect" id="Node000003" href="$da/dd6/classproto_1_1_tx_container.html" title=" " alt="" coords="180,5,328,46"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,60,185,118,180,115,227,56"/>
+</map>

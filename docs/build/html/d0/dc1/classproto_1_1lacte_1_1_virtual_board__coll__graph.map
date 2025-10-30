@@ -1,0 +1,41 @@
+<map id="proto::lacte::VirtualBoard&lt; RX_BASE, TX_BASE &gt;" name="proto::lacte::VirtualBoard&lt; RX_BASE, TX_BASE &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="738,107,913,148"/>
+<area shape="rect" id="Node000002" href="$d7/de4/structproto_1_1lacte_1_1_version_packet_type.html" title=" " alt="" coords="375,5,582,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="598,30,657,43,715,61,758,81,796,104,793,109,756,86,713,66,655,48,597,36"/>
+<area shape="rect" id="Node000003" href="$de/dff/structproto_1_1lacte_1_1_info_packet_type.html" title=" " alt="" coords="386,55,571,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="572,81,738,110,737,115,571,86"/>
+<area shape="rect" id="Node000004" href="$d9/d72/classproto_1_1lacte_1_1_error_flags.html" title=" " alt="" coords="28,17,183,43"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="199,37,385,56,385,61,198,42"/>
+<area shape="rect" id="Node000005" href="$df/d1b/structproto_1_1lacte_1_1_r_f_i_d_number_type.html" title=" " alt="" coords="5,93,206,119"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="221,108,367,113,738,123,737,128,367,118,221,113"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="221,92,385,74,385,80,221,97"/>
+<area shape="rect" id="Node000006" href="$d6/d9b/structproto_1_1lacte_1_1_u_i_d_packet_type.html" title=" " alt="" coords="385,176,572,202"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="587,183,650,177,713,167,777,146,779,151,715,172,651,183,588,189"/>
+<area shape="rect" id="Node000007" href="$da/dbe/structproto_1_1lacte_1_1_mcu_uid.html" title=" " alt="" coords="36,193,175,219"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="191,200,384,191,384,196,191,205"/>
+<area shape="rect" id="Node000008" href="$d9/de1/structproto_1_1lacte_1_1_r_f_i_d_data_packet_type.html" title=" " alt="" coords="367,487,590,512"/>
+<area shape="poly" id="edge16_Node000008_Node000007" title=" " alt="" coords="191,220,286,241,344,260,373,286,398,315,436,380,462,442,476,485,471,487,457,444,432,383,393,318,369,289,341,264,285,246,190,225"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="500,474,803,147,807,150,504,477"/>
+<area shape="rect" id="Node000009" href="$df/dd7/structproto_1_1lacte_1_1_magic_word.html" title=" " alt="" coords="26,273,185,299"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="201,280,273,290,310,301,344,317,369,335,392,356,430,404,457,450,474,485,469,487,452,453,425,407,388,360,366,339,341,322,308,306,272,295,200,286"/>
+<area shape="rect" id="Node000010" href="$d0/d28/structproto_1_1lacte_1_1_lacte_id.html" title=" " alt="" coords="37,327,174,352"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="190,340,266,351,306,362,344,377,384,401,419,431,468,484,465,488,415,435,380,406,341,382,304,367,265,356,189,345"/>
+<area shape="rect" id="Node000011" href="$d7/d8d/structproto_1_1lacte_1_1_lacte_sn.html" title=" " alt="" coords="34,380,177,406"/>
+<area shape="poly" id="edge11_Node000008_Node000011" title=" " alt="" coords="193,399,267,411,344,430,406,456,456,484,454,488,404,461,342,435,266,416,192,404"/>
+<area shape="rect" id="Node000012" href="$df/d79/structproto_1_1lacte_1_1_product_volume.html" title=" " alt="" coords="14,433,197,459"/>
+<area shape="poly" id="edge12_Node000008_Node000012" title=" " alt="" coords="213,455,343,473,406,483,405,489,342,478,212,461"/>
+<area shape="rect" id="Node000013" href="$d6/deb/structproto_1_1lacte_1_1_prod_date.html" title=" " alt="" coords="31,487,180,512"/>
+<area shape="poly" id="edge13_Node000008_Node000013" title=" " alt="" coords="195,497,366,497,366,502,195,502"/>
+<area shape="rect" id="Node000014" href="$d9/d99/structproto_1_1lacte_1_1_product_shelf_life.html" title=" " alt="" coords="10,540,201,566"/>
+<area shape="poly" id="edge14_Node000008_Node000014" title=" " alt="" coords="216,541,342,525,419,510,420,516,343,530,217,546"/>
+<area shape="rect" id="Node000015" href="$d1/d60/structproto_1_1lacte_1_1_usage_time.html" title=" " alt="" coords="25,593,186,619"/>
+<area shape="poly" id="edge15_Node000008_Node000015" title=" " alt="" coords="201,597,271,586,342,568,405,540,456,511,458,515,408,545,344,573,272,591,202,602"/>
+<area shape="rect" id="Node000016" href="$d8/d8a/structproto_1_1lacte_1_1_machine_sn.html" title=" " alt="" coords="26,647,185,672"/>
+<area shape="poly" id="edge17_Node000008_Node000016" title=" " alt="" coords="200,655,271,644,307,634,341,620,381,596,416,566,465,511,469,515,420,569,384,600,344,625,309,639,272,649,201,660"/>
+<area shape="rect" id="Node000017" href="$de/d0a/structproto_1_1lacte_1_1_activation_time.html" title=" " alt="" coords="15,700,196,726"/>
+<area shape="poly" id="edge18_Node000008_Node000017" title=" " alt="" coords="211,714,278,705,311,695,341,680,366,663,388,642,426,594,453,547,469,512,474,514,457,550,430,597,392,645,369,667,344,685,313,700,279,710,212,720"/>
+<area shape="rect" id="Node000018" href="$d9/d0c/structproto_1_1lacte_1_1_drink_counter.html" title=" " alt="" coords="20,753,191,779"/>
+<area shape="poly" id="edge19_Node000008_Node000018" title=" " alt="" coords="207,774,241,773,276,768,310,757,341,742,371,717,396,688,418,655,435,621,459,558,472,512,477,513,465,559,440,624,422,658,401,691,375,721,344,746,312,762,277,773,242,778,207,780"/>
+<area shape="rect" id="Node000019" href="$dc/dc4/structproto_1_1lacte_1_1_time_counter.html" title=" " alt="" coords="21,807,190,832"/>
+<area shape="poly" id="edge20_Node000008_Node000019" title=" " alt="" coords="194,832,231,833,270,829,307,819,341,802,376,771,404,733,426,692,443,649,465,568,473,512,478,513,470,569,449,650,431,694,409,736,380,774,344,806,309,824,271,834,231,838,194,837"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="proto::lacte::VirtualBoard::VirtualBoard" name="proto::lacte::VirtualBoard::VirtualBoard">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,71,171,112"/>
+<area shape="rect" id="Node000002" href="$d8/d30/class_custom_span.html#aa94cafb45950ce4dbcf4e57f6c22615a" title=" " alt="" coords="233,5,364,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,68,218,40,236,34,238,39,220,45,143,73"/>
+<area shape="rect" id="Node000003" href="$d8/d8f/namespaceproto_1_1meta.html#a5236c42cda218e31c60084fee50aecdc" title=" " alt="" coords="219,79,378,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,89,203,89,203,94,171,94"/>
+<area shape="rect" id="Node000004" href="$d8/d30/class_custom_span.html#a7612ff42bfc672d97414e1e3ddc391b9" title=" " alt="" coords="234,128,363,154"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="171,108,227,121,226,127,170,113"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="263,80,256,70,261,60,275,54,298,52,324,55,337,62,335,66,323,60,298,57,276,59,264,64,262,69,268,77"/>
+</map>

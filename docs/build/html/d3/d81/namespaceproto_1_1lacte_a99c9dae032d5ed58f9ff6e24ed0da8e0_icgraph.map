@@ -1,0 +1,31 @@
+<map id="proto::lacte::mask" name="proto::lacte::mask">
+<area shape="rect" id="Node000001" title=" " alt="" coords="645,246,772,272"/>
+<area shape="rect" id="Node000002" href="$d9/d72/classproto_1_1lacte_1_1_error_flags.html#a673ced74210ef0494d223cf63576d00c" title=" " alt="" coords="428,144,583,185"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="671,240,596,200,567,188,569,183,598,195,674,235"/>
+<area shape="rect" id="Node000003" href="$d9/d72/classproto_1_1lacte_1_1_error_flags.html#a54a712a770dac1742b2d9963e48609be" title=" " alt="" coords="428,209,583,250"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="630,250,583,243,584,238,630,245"/>
+<area shape="rect" id="Node000004" href="$d9/d72/classproto_1_1lacte_1_1_error_flags.html#a2dba95c61487cddca6e661194467606d" title=" " alt="" coords="414,274,597,300"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="630,272,598,277,597,272,630,267"/>
+<area shape="rect" id="Node000014" href="$d9/d72/classproto_1_1lacte_1_1_error_flags.html#aeb541042b66e0772797a12b143543936" title=" " alt="" coords="416,332,596,357"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="669,282,598,315,549,333,547,328,596,310,667,277"/>
+<area shape="rect" id="Node000005" href="$d4/d4b/classproto_1_1lacte_1_1_board_error_diff.html#a9226218083c549061b1bf6d55baae0f5" title=" " alt="" coords="210,201,366,242"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="440,272,413,264,352,245,353,240,415,259,441,267"/>
+<area shape="rect" id="Node000013" href="$d9/d72/classproto_1_1lacte_1_1_error_flags.html#a02d6289796f35e3491b51103a705b459" title=" " alt="" coords="211,267,365,307"/>
+<area shape="poly" id="edge12_Node000004_Node000013" title=" " alt="" coords="399,290,365,290,365,284,399,284"/>
+<area shape="rect" id="Node000006" href="$d4/d4b/classproto_1_1lacte_1_1_board_error_diff.html#ac9a7534e72159d7d0dfc0c5f82c8d1bf" title=" " alt="" coords="5,5,162,46"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="265,189,222,125,193,91,160,61,141,49,144,44,163,57,197,87,226,122,270,186"/>
+<area shape="rect" id="Node000007" href="$d4/d4b/classproto_1_1lacte_1_1_board_error_diff.html#a9ea0242ee1aa502ce3b9d8a2194f78d5" title=" " alt="" coords="5,71,162,111"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="251,193,209,159,160,127,137,114,139,110,163,122,212,155,254,189"/>
+<area shape="rect" id="Node000008" href="$d4/d4b/classproto_1_1lacte_1_1_board_error_diff.html#a03b59eda85a9cc7200bb23108cc7aa16" title=" " alt="" coords="5,136,162,177"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="207,199,149,180,150,175,209,194"/>
+<area shape="rect" id="Node000009" href="$d4/d4b/classproto_1_1lacte_1_1_board_error_diff.html#ab48f0e028b6e0e73a9f17446bf4f930c" title=" " alt="" coords="5,201,162,242"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="194,224,162,224,162,219,194,219"/>
+<area shape="rect" id="Node000010" href="$d4/d4b/classproto_1_1lacte_1_1_board_error_diff.html#af59e81b998a9a2fbf26748f7a0444ccd" title=" " alt="" coords="5,267,162,307"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="209,250,150,269,149,263,207,245"/>
+<area shape="rect" id="Node000011" href="$d4/d4b/classproto_1_1lacte_1_1_board_error_diff.html#ac06812f97204ddbfb993ed22c26221e0" title=" " alt="" coords="5,332,162,373"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="218,253,211,257,196,273,188,288,179,304,163,321,144,334,141,329,160,317,175,301,183,286,192,270,208,253,214,248"/>
+<area shape="rect" id="Node000012" href="$d4/d4b/classproto_1_1lacte_1_1_board_error_diff.html#a1b4ae3f56b747d577134b75f2c606024" title=" " alt="" coords="5,397,162,438"/>
+<area shape="poly" id="edge11_Node000005_Node000012" title=" " alt="" coords="215,253,212,257,200,273,193,288,188,320,184,352,176,369,164,386,148,399,145,395,160,382,172,366,178,351,183,319,188,287,195,270,208,253,211,250"/>
+<area shape="rect" id="Node000015" href="$d9/d72/classproto_1_1lacte_1_1_error_flags.html#a3c88af0107e585bc7464246ee93cc10b" title=" " alt="" coords="211,332,365,373"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="400,351,366,352,366,347,400,346"/>
+</map>

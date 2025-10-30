@@ -1,0 +1,8 @@
+<map id="proto::lacte::LacteHostProtocol::get" name="proto::lacte::LacteHostProtocol::get">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,234,80"/>
+<area shape="rect" id="Node000002" href="$d8/d8f/namespaceproto_1_1meta.html#a5236c42cda218e31c60084fee50aecdc" title=" " alt="" coords="282,29,441,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,53,266,49,266,55,234,58"/>
+<area shape="rect" id="Node000003" href="$d6/dca/namespaceproto.html#a9c21019704e7c51307682a22ccd4a6d3" title="Helper to create a FieldInfo with type/size deduction." alt="" coords="287,79,436,104"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="234,76,271,80,271,85,234,82"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="321,31,313,21,318,11,334,5,361,3,391,5,406,13,404,17,390,11,361,8,336,10,322,15,319,20,325,27"/>
+</map>
