@@ -73,6 +73,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50d3167e-7835-4c43-a4d9-eaccf0369a34" name="Changes" comment="fix(doxygen): checked on embedded linux">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -487,7 +488,7 @@
       <workItem from="1761739942818" duration="154000" />
       <workItem from="1761740117038" duration="3071000" />
       <workItem from="1761743255520" duration="28325000" />
-      <workItem from="1761783576663" duration="9731000" />
+      <workItem from="1761783576663" duration="11464000" />
     </task>
     <task id="LOCAL-00040" summary="fix(doxygen): datafield">
       <option name="closed" value="true" />

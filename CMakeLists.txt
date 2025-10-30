@@ -39,7 +39,7 @@ FetchContent_Declare(
         fs_tools
         QUIET
         GIT_REPOSITORY https://github.com/iahve-space/fs-tools.git
-        GIT_TAG v1.0.19
+        GIT_TAG v1.0.0
 )
 FetchContent_MakeAvailable(fs_tools)
 
